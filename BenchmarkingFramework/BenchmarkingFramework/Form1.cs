@@ -1,0 +1,101 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace BenchmarkingFramework
+{
+    public partial class Form1 : Form
+    {
+        bool random, sorted, counting;
+        bool thousand, tenK, oneMille;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            sorted = checkBox2.Checked;
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            counting = checkBox3.Checked;
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            thousand = checkBox3.Checked;
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            tenK = checkBox4.Checked;
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            oneMille = checkBox5.Checked;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            List<int> sizes = new List<int>();
+            if (thousand)
+            {
+                sizes.Add(1000);
+            }
+            if (tenK)
+            {
+                sizes.Add(10000);
+            }
+            if (oneMille)
+            {
+                sizes.Add(1000000);
+            }
+            List<ArrayGenerator> gens = new List<ArrayGenerator>();
+            if (random)
+            {
+                gens.Add(new RandomArrayGenerator());
+            }
+            if (sorted)
+            {
+                gens.Add(new SortedRandomArrayGenerator());
+            }
+            if (counting)
+            {
+                gens.Add(new CountingArrayGenerator());
+            }
+            TreeAlgorithm[] algs = new TreeAlgorithm[1];
+            algs[0] = new TreeAlgorithm();
+            Benchmark benchmark = new Benchmark(sizes.ToArray(), gens.ToArray(), algs) ;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            random = checkBox1.Checked;
+        }
+    }
+}
