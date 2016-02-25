@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BenchmarkingFramework
-{
+{/// <summary>
+/// overalll benchmarking class, generates loose tests for every selected option
+/// </summary>
     class Benchmark
     {
         int[] arraySizes;
         ArrayGenerator[] arrayGenerators;
         TreeAlgorithm[] treeAlgorithms;
-
+        
         public Benchmark(int[] sizes, ArrayGenerator[] generators, TreeAlgorithm[] algorithms)
         {
             arraySizes = sizes;
@@ -20,7 +22,9 @@ namespace BenchmarkingFramework
             TestRun.startingMemory = GC.GetTotalMemory(true);
             RunAll();
         }
-
+        /// <summary>
+        /// runs all tests
+        /// </summary>
         public void RunAll()
         {
             foreach (ArrayGenerator gen in arrayGenerators)

@@ -3,6 +3,9 @@ using System;
 
 namespace BenchmarkingFramework
 {
+    /// <summary>
+    /// Single test, with one array.
+    /// </summary>
     class TestRun
     {
         public TreeAlgorithm algorithm;
@@ -20,7 +23,11 @@ namespace BenchmarkingFramework
             algorithm = testAlgorithm;
             algorithmType = algorithmtype;
         }
-
+        /// <summary>
+        /// runs the test and takes the benchmark values
+        /// </summary>
+        /// <param name="testArray"></param>
+        /// <param name="arraytype"></param>
         public void Run(int[] testArray, string arraytype)
         {
             size = testArray.Length.ToString();
@@ -66,7 +73,6 @@ namespace BenchmarkingFramework
             lookupTime = timer.Elapsed;
 
             finishingMemory = GC.GetTotalMemory(false);
-            Console.WriteLine(finishingMemory.ToString());
         }
 
     }

@@ -4,26 +4,41 @@ using System.Linq;
 
 namespace BenchmarkingFramework
 {
+    /// <summary>
+    /// base class for generating arrays
+    /// </summary>
     class ArrayGenerator
     {
         public ArrayGenerator()
         {
 
         }
-
+        /// <summary>
+        /// generates the array given a size and seed
+        /// </summary>
+        /// <param name="size"></param>
+        /// <param name="seed"></param>
+        /// <returns></returns>
         public virtual int[] GenerateArray(int size, int seed)
         {
             return null;
         }
     }
-
+    /// <summary>
+    /// Array generator wjich stars counting at the given seed
+    /// </summary>
     class CountingArrayGenerator : ArrayGenerator
     {
         public CountingArrayGenerator() : base()
         {
 
         }
-
+        /// <summary>
+        /// returns array, with values counting starting at the seed
+        /// </summary>
+        /// <param name="size"></param>
+        /// <param name="seed"></param>
+        /// <returns></returns>
         public override int[] GenerateArray(int size, int seed)
         {
             int[] toReturn = new int[size];
@@ -38,6 +53,9 @@ namespace BenchmarkingFramework
         }
     }
 
+    /// <summary>
+    /// Array generator wich fills an array with random values
+    /// </summary>
     class RandomArrayGenerator : ArrayGenerator
     {
         public RandomArrayGenerator() : base()
@@ -48,7 +66,7 @@ namespace BenchmarkingFramework
         public override int[] GenerateArray(int size, int seed)
         {
             int[] toReturn = new int[size];
-            Random random = new Random();
+            Random random = new Random(seed);
             for (int i = 0; i < size; i++)
             {
                 toReturn[i] = random.Next();
@@ -59,6 +77,9 @@ namespace BenchmarkingFramework
         }
     }
 
+    /// <summary>
+    /// An array generator wich sorts the random values it generates.
+    /// </summary>
     class SortedRandomArrayGenerator : RandomArrayGenerator
     {
         public SortedRandomArrayGenerator() : base()

@@ -13,7 +13,7 @@ namespace BenchmarkingFramework
     public partial class Form1 : Form
     {
         bool random, sorted, counting;
-        bool thousand, tenK, oneMille;
+        bool thousand, tenK, hundredK, oneMille;
 
         public Form1()
         {
@@ -32,15 +32,15 @@ namespace BenchmarkingFramework
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-            thousand = checkBox3.Checked;
+            thousand = checkBox6.Checked;
         }
 
-        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             tenK = checkBox4.Checked;
         }
 
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
             oneMille = checkBox5.Checked;
         }
@@ -55,6 +55,10 @@ namespace BenchmarkingFramework
             if (tenK)
             {
                 sizes.Add(10000);
+            }
+            if (hundredK)
+            {
+                sizes.Add(100000);
             }
             if (oneMille)
             {
@@ -74,8 +78,13 @@ namespace BenchmarkingFramework
                 gens.Add(new CountingArrayGenerator());
             }
             TreeAlgorithm[] algs = new TreeAlgorithm[1];
-            algs[0] = new TreeAlgorithm();
+            algs[0] = new HashOpenAdressing();
             Benchmark benchmark = new Benchmark(sizes.ToArray(), gens.ToArray(), algs) ;
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            hundredK = checkBox7.Checked;
         }
 
         private void Form1_Load(object sender, EventArgs e)
