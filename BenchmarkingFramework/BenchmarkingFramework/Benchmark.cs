@@ -33,12 +33,17 @@ namespace BenchmarkingFramework
                 {
 
                     int[] testArray = gen.GenerateArray(size, 0);
+                    TestRun.startingMemory = GC.GetTotalMemory(true);
+
                     foreach (TreeAlgorithm alg in treeAlgorithms)
                     {
-                        TreeAlgorithm algorithm = alg.Clone() as TreeAlgorithm;
+                        for (int i = 0; i != 1; i++)
+                        {
+                            TreeAlgorithm algorithm = alg.Clone() as TreeAlgorithm;
 
-                        TestRun testRun = new TestRun(alg, alg.GetType().ToString());
-                        testRun.Run(testArray, gen.GetType().ToString());
+                            TestRun testRun = new TestRun(alg, alg.GetType().ToString());
+                            testRun.Run(testArray, gen.GetType().ToString());
+                        }
                         GC.Collect();
                     }
                 }

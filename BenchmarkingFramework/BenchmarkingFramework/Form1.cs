@@ -12,6 +12,7 @@ namespace BenchmarkingFramework
 {
     public partial class Form1 : Form
     {
+        public static string location;
         bool random, sorted, counting;
         bool thousand, tenK, hundredK, oneMille;
 
@@ -94,7 +95,7 @@ namespace BenchmarkingFramework
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            location = textBox1.Text;
         }
 
         private void label3_Click(object sender, EventArgs e)

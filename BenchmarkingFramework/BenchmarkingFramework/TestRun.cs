@@ -9,13 +9,14 @@ namespace BenchmarkingFramework
     class TestRun
     {
         public TreeAlgorithm algorithm;
-        public TimeSpan build;
+        public TimeSpan buildTime;
         public TimeSpan insertTime;
         public TimeSpan deleteTime;
         public TimeSpan lookupTime;
         public static long startingMemory;
         public long finishingMemory;
-        public string size, arrayType, algorithmType;
+        public string  arrayType, algorithmType;
+        public int size;
 
 
         public TestRun(TreeAlgorithm testAlgorithm, string algorithmtype)
@@ -30,7 +31,7 @@ namespace BenchmarkingFramework
         /// <param name="arraytype"></param>
         public void Run(int[] testArray, string arraytype)
         {
-            size = testArray.Length.ToString();
+            size = testArray.Length;
             arrayType = arraytype;
 
             Stopwatch timer = new Stopwatch();
@@ -38,7 +39,7 @@ namespace BenchmarkingFramework
             timer.Start();
             algorithm.Build(testArray);
             timer.Stop();
-            build = timer.Elapsed;
+            buildTime = timer.Elapsed;
 
             int[] lookupValues = new int[1000];
             for (int i = 0; i < 1000; i++)
@@ -73,6 +74,15 @@ namespace BenchmarkingFramework
             lookupTime = timer.Elapsed;
 
             finishingMemory = GC.GetTotalMemory(false);
+            Finish();
+        }
+
+        public void Finish()
+        {
+            TestData data = new TestData(arrayType, size, buildTime.TotalMilliseconds, insertTime.TotalMilliseconds, deleteTime.TotalMilliseconds, lookupTime.TotalMilliseconds, finishingMemory - startingMemory);
+            DatabaseConnection temp = new DatabaseConnection();
+            temp.AddResults(data);
+            
         }
 
     }

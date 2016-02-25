@@ -13,6 +13,10 @@ namespace BenchmarkingFramework
         public HashOpenAdressing()
         {
             containedArray = new int[10000020];
+            for( int i = 0; i < containedArray.Length; i++)
+            {
+                containedArray[i] = 0;
+            }
         }
 
         public override void Build(int[] array)
@@ -34,7 +38,7 @@ namespace BenchmarkingFramework
                 {
                     throw new Exception("Hash Table either Full or Malfunctioning");
                 }
-                hashValue = Hash(hashValue);
+                hashValue = Chaining(hashValue);
             }
             containedArray[hashValue] = value;
         }
@@ -57,7 +61,7 @@ namespace BenchmarkingFramework
                 {
                     throw new Exception("Value not present in tablle");
                 }
-                hashValue = Hash(hashValue);
+                hashValue = Chaining(hashValue);
             }
             return hashValue;
         }
@@ -69,10 +73,22 @@ namespace BenchmarkingFramework
 
         int Hash(int value)
         {
-            long intermediary = value * value;
+            long intermediary = 1 + value * value;
             if (intermediary % (containedArray.Length-1) != 0)
                 return Math.Abs((int)(intermediary % (long)(containedArray.Length-1)));
             return containedArray.Length - 1;
+        }
+
+        int Chaining(int tempvalue)
+        {
+            int value = tempvalue;
+            if (value < containedArray.Length)
+            {
+                value++;
+            }
+            else
+                value = 1;
+            return value;
         }
     }
 }
