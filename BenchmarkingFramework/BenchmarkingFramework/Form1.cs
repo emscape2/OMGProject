@@ -13,12 +13,17 @@ namespace BenchmarkingFramework
     public partial class Form1 : Form
     {
         public static string location;
-        bool random, sorted, counting;
+        bool random, sorted, counting, grouped;
         bool thousand, tenK, hundredK, oneMille;
 
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            random = checkBox1.Checked;
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -31,6 +36,11 @@ namespace BenchmarkingFramework
             counting = checkBox3.Checked;
         }
 
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            grouped = checkBox8.Checked;
+        }
+
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
             thousand = checkBox6.Checked;
@@ -39,6 +49,11 @@ namespace BenchmarkingFramework
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             tenK = checkBox4.Checked;
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            hundredK = checkBox7.Checked;
         }
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
@@ -78,14 +93,13 @@ namespace BenchmarkingFramework
             {
                 gens.Add(new CountingArrayGenerator());
             }
+            if (grouped)
+            {
+                gens.Add(new GroupedArrayGenerator());
+            }
             TreeAlgorithm[] algs = new TreeAlgorithm[1];
             algs[0] = new HashOpenAdressing();
             Benchmark benchmark = new Benchmark(sizes.ToArray(), gens.ToArray(), algs) ;
-        }
-
-        private void checkBox7_CheckedChanged(object sender, EventArgs e)
-        {
-            hundredK = checkBox7.Checked;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -101,11 +115,6 @@ namespace BenchmarkingFramework
         private void label3_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            random = checkBox1.Checked;
         }
     }
 }

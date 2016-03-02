@@ -25,7 +25,7 @@ namespace BenchmarkingFramework
         }
     }
     /// <summary>
-    /// Array generator wjich stars counting at the given seed
+    /// Array generator which stars counting at the given seed
     /// </summary>
     class CountingArrayGenerator : ArrayGenerator
     {
@@ -54,7 +54,7 @@ namespace BenchmarkingFramework
     }
 
     /// <summary>
-    /// Array generator wich fills an array with random values
+    /// Array generator which fills an array with random values
     /// </summary>
     class RandomArrayGenerator : ArrayGenerator
     {
@@ -78,7 +78,7 @@ namespace BenchmarkingFramework
     }
 
     /// <summary>
-    /// An array generator wich sorts the random values it generates.
+    /// An array generator which sorts the random values it generates.
     /// </summary>
     class SortedRandomArrayGenerator : RandomArrayGenerator
     {
@@ -96,6 +96,30 @@ namespace BenchmarkingFramework
 
             return l.ToArray<int>();
 
+        }
+    }
+
+    /// <summary>
+    /// An array generator that returns 10 "groups" of ordered, random values
+    /// </summary>
+    class GroupedArrayGenerator : SortedRandomArrayGenerator
+    {
+        public GroupedArrayGenerator() : base()
+        {
+
+        }
+
+        public override int[] GenerateArray(int size, int seed)
+        {
+            int[] toReturn = new int[size];
+
+            for (int i = 0; i < 10; i++)
+            {
+                int[] arrayGroup = base.GenerateArray(size / 10, seed + i);
+                arrayGroup.CopyTo(toReturn, i * arrayGroup.Length)
+            }
+
+            return toReturn;
         }
     }
 
