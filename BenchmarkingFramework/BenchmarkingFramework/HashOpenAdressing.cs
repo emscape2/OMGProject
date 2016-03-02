@@ -13,10 +13,6 @@ namespace BenchmarkingFramework
         public HashOpenAdressing()
         {
             containedArray = new int[10000020];
-            for( int i = 0; i < containedArray.Length; i++)
-            {
-                containedArray[i] = 0;
-            }
         }
 
         public override void Build(int[] array)
@@ -27,68 +23,75 @@ namespace BenchmarkingFramework
             }
         }
 
-        public override void Insert(int value)
+        public override void Insert(int key)
         {
-            int counter = 0;
-            int hashValue = Hash(value);
-            while (containedArray[hashValue] != 0)
-            {
-                counter++;
-                if (counter > containedArray.Length)
-                {
-                    throw new Exception("Hash Table either Full or Malfunctioning");
-                }
-                hashValue = Chaining(hashValue);
-            }
-            containedArray[hashValue] = value;
+            int index = GetIndex(key, 0);
+            containedArray[hashValue] = key;
         }
 
-        public override bool Delete(int value)
+        public override bool Delete(int key)
         {
-            int index = Lookup(value);
+            int index = GetIndex(key);
             containedArray[index] = 0;
             return true;
         }
 
-        public override int Lookup(int value)
+        public override int Lookup(int key)
+        {
+            int index = GetIndex(key);
+            return containedArray[index];
+        }
+
+        public override int GetIndex(int key)
+        {
+          GetIndexWithValue(key, key);
+        }
+
+        public int GetFreeIndex(int key)
+        {
+          GetIndexWithValue(key, 0);
+        }
+
+        public int GetIndexWithValue(int key, int value)
         {
             int counter = 0;
-            int hashValue = Hash(value);
+            int hashValue = Hash(key);
             while (containedArray[hashValue] != value)
             {
                 counter++;
                 if (counter > containedArray.Length)
                 {
-                    throw new Exception("Value not present in tablle");
+                    throw new Exception("Out of bounds!");
                 }
                 hashValue = Chaining(hashValue);
             }
             return hashValue;
-        }
+          }
 
         public override object Clone()
         {
             return new HashOpenAdressing();
         }
 
-        int Hash(int value)
+        int Hash(int key)
         {
-            long intermediary = 1 + value * value;
-            if (intermediary % (containedArray.Length-1) != 0)
-                return Math.Abs((int)(intermediary % (long)(containedArray.Length-1)));
-            return containedArray.Length - 1;
+            long intermediary = 1 + key * key;
+            int maxIndex = containedArray.Length - 1;
+
+            if (intermediary % maxIndex != 0)
+                return Math.Abs((int)(intermediary % (long)maxIndex));
+
+            return maxIndex;
         }
 
-        int Chaining(int tempvalue)
+        int Chaining(int hashValue)
         {
-            int value = tempvalue;
-            if (value < containedArray.Length)
-            {
-                value++;
-            }
+            if (hashValue < containedArray.Length)
+                hashValue++;
             else
-                value = 1;
-            return value;
+                hashValue = 1;
+
+            return hashValue;
         }
     }
 }

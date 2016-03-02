@@ -17,28 +17,28 @@ namespace BenchmarkingFramework
 
         }
         /// <summary>
-        /// inserts one value
+        /// inserts one key
         /// </summary>
-        /// <param name="value"></param>
-        public virtual void Insert(int value)
+        /// <param name="key"></param>
+        public virtual void Insert(int key)
         {
 
         }
         /// <summary>
-        /// searches and deletes the value
+        /// searches and deletes the key
         /// </summary>
-        /// <param name="value"></param>
-        public virtual bool Delete(int value)
+        /// <param name="key"></param>
+        public virtual bool Delete(int key)
         {
             return true;
         }
 
         /// <summary>
-        /// searches for the value
+        /// searches for the key
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="key"></param>
         /// <returns></returns>
-        public virtual int Lookup( int value)
+        public virtual int Lookup( int key)
         {
             return 0;
         }
