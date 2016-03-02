@@ -116,7 +116,7 @@ namespace BenchmarkingFramework
             for (int i = 0; i < 10; i++)
             {
                 int[] arrayGroup = base.GenerateArray(size / 10, seed + i);
-                arrayGroup.CopyTo(toReturn, i * arrayGroup.Length)
+                arrayGroup.CopyTo(toReturn, i * arrayGroup.Length);
             }
 
             return toReturn;

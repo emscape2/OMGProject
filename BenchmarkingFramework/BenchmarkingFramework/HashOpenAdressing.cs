@@ -25,8 +25,8 @@ namespace BenchmarkingFramework
 
         public override void Insert(int key)
         {
-            int index = GetIndex(key, 0);
-            containedArray[hashValue] = key;
+            int index = GetFreeIndex(key);
+            containedArray[index] = key;
         }
 
         public override bool Delete(int key)
@@ -42,14 +42,14 @@ namespace BenchmarkingFramework
             return containedArray[index];
         }
 
-        public override int GetIndex(int key)
+        public int GetIndex(int key)
         {
-          GetIndexWithValue(key, key);
+          return GetIndexWithValue(key, key);
         }
 
         public int GetFreeIndex(int key)
         {
-          GetIndexWithValue(key, 0);
+          return GetIndexWithValue(key, 0);
         }
 
         public int GetIndexWithValue(int key, int value)

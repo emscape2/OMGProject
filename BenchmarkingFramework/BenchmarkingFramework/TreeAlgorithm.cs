@@ -43,6 +43,11 @@ namespace BenchmarkingFramework
             return 0;
         }
 
+        public virtual int GetIndex(int key)
+        {
+            return 0;
+        }
+
         /// <summary>
         /// returns empty datastructure of the same type
         /// </summary>
