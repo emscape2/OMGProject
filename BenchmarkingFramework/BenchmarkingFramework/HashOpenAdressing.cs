@@ -25,13 +25,16 @@ namespace BenchmarkingFramework
 
         public override void Insert(int key)
         {
+            Delete(key); // Insert needs to replace
             int index = GetFreeIndex(key);
+            if (index == -1) throw new Exception("No more room in the table");
             containedArray[index] = key;
         }
 
         public override bool Delete(int key)
         {
             int index = GetIndex(key);
+            if (index == -1) return false;
             containedArray[index] = 0;
             return true;
         }
@@ -39,17 +42,18 @@ namespace BenchmarkingFramework
         public override int Lookup(int key)
         {
             int index = GetIndex(key);
+            if (index == -1) return -1;
             return containedArray[index];
         }
 
         public int GetIndex(int key)
         {
-          return GetIndexWithValue(key, key);
+            return GetIndexWithValue(key, key);
         }
 
         public int GetFreeIndex(int key)
         {
-          return GetIndexWithValue(key, 0);
+            return GetIndexWithValue(key, 0);
         }
 
         public int GetIndexWithValue(int key, int value)
@@ -60,9 +64,7 @@ namespace BenchmarkingFramework
             {
                 counter++;
                 if (counter > containedArray.Length)
-                {
-                    throw new Exception("Out of bounds!");
-                }
+                    return -1;
                 hashValue = Chaining(hashValue);
             }
             return hashValue;

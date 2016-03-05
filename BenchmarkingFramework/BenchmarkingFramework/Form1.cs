@@ -97,8 +97,10 @@ namespace BenchmarkingFramework
             {
                 gens.Add(new GroupedArrayGenerator());
             }
-            TreeAlgorithm[] algs = new TreeAlgorithm[1];
-            algs[0] = new HashOpenAdressing();
+            TreeAlgorithm[] algs = new TreeAlgorithm[] {
+                new HashOpenAdressing(),
+                new LinkedList()
+            };
             Benchmark benchmark = new Benchmark(sizes.ToArray(), gens.ToArray(), algs) ;
         }
 
