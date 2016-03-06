@@ -8,13 +8,15 @@ namespace BenchmarkingFramework
 {
     class TreeAlgorithm : ICloneable
     {
+
         /// <summary>
         /// builds the datastructure
         /// </summary>
         /// <param name="array"></param>
         public virtual void Build(int[] array)
         {
-
+            foreach (int i in array)
+                Insert(i);
         }
         /// <summary>
         /// inserts one key
