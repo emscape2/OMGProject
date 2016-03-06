@@ -15,14 +15,6 @@ namespace BenchmarkingFramework
             containedArray = new int[10000020];
         }
 
-        public override void Build(int[] array)
-        {
-            foreach (int i in array)
-            {
-                Insert(i);
-            }
-        }
-
         public override void Insert(int key)
         {
             Delete(key); // Insert needs to replace
@@ -46,7 +38,7 @@ namespace BenchmarkingFramework
             return containedArray[index];
         }
 
-        public int GetIndex(int key)
+        public override int GetIndex(int key)
         {
             return GetIndexWithValue(key, key);
         }
@@ -78,7 +70,7 @@ namespace BenchmarkingFramework
         int Hash(int key)
         {
             long intermediary = 1 + key * key;
-            int maxIndex = containedArray.Length - 1;
+            int maxIndex = containedArray.Length;
 
             if (intermediary % maxIndex != 0)
                 return Math.Abs((int)(intermediary % (long)maxIndex));
@@ -88,7 +80,7 @@ namespace BenchmarkingFramework
 
         int Chaining(int hashValue)
         {
-            if (hashValue < containedArray.Length)
+            if (hashValue < containedArray.Length - 1)
                 hashValue++;
             else
                 hashValue = 1;
