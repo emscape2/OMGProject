@@ -13,6 +13,7 @@ namespace BenchmarkingFramework
         public HashOpenAdressing()
         {
             containedArray = new int[10000020];
+            
         }
 
         public override void Build(int[] array)
@@ -66,6 +67,7 @@ namespace BenchmarkingFramework
                 if (counter > containedArray.Length)
                     return -1;
                 hashValue = Chaining(hashValue);
+                
             }
             return hashValue;
           }
@@ -88,7 +90,7 @@ namespace BenchmarkingFramework
 
         int Chaining(int hashValue)
         {
-            if (hashValue < containedArray.Length)
+            if (hashValue <= containedArray.Length-1)
                 hashValue++;
             else
                 hashValue = 1;
