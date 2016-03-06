@@ -26,6 +26,8 @@ namespace BenchmarkingFramework
 
         public override void Insert(int key)
         {
+            if (key == 0)
+                return;
             Delete(key); // Insert needs to replace
             int index = GetFreeIndex(key);
             if (index == -1) throw new Exception("No more room in the table");
@@ -34,14 +36,18 @@ namespace BenchmarkingFramework
 
         public override bool Delete(int key)
         {
-            int index = GetIndex(key);
+            if (key == 0)
+                return false;
+            int index = GetIndexWithValue(key,key,true);
             if (index == -1) return false;
-            containedArray[index] = 0;
+            containedArray[index] = -1;
             return true;
         }
 
         public override int Lookup(int key)
         {
+            if (key == 0)
+                return 0;
             int index = GetIndex(key);
             if (index == -1) return -1;
             return containedArray[index];
@@ -49,25 +55,39 @@ namespace BenchmarkingFramework
 
         public int GetIndex(int key)
         {
-            return GetIndexWithValue(key, key);
+            return GetIndexWithValue(key, key,false);
         }
 
         public int GetFreeIndex(int key)
         {
-            return GetIndexWithValue(key, 0);
+            return GetIndexWithValue(key, 0,false);
         }
 
-        public int GetIndexWithValue(int key, int value)
+        public int GetIndexWithValue(int key, int value, bool deletion)
         {
             int counter = 0;
             int hashValue = Hash(key);
-            while (containedArray[hashValue] != value)
+            if (key == 0)
             {
-                counter++;
-                if (counter > containedArray.Length)
-                    return -1;
-                hashValue = Chaining(hashValue);
-                
+
+                while (containedArray[hashValue] != 0 || containedArray[hashValue] != -1)
+                {
+                    counter++;
+                    if (counter > containedArray.Length)
+                        return -1;
+                    hashValue = Chaining(hashValue);
+                }
+            }
+            else
+            {
+                while (containedArray[hashValue] != value)
+                {
+
+                    counter++;
+                    if ((deletion && containedArray[hashValue] == 0) || counter > containedArray.Length)
+                        return -1;
+                    hashValue = Chaining(hashValue);
+                }
             }
             return hashValue;
           }
@@ -79,7 +99,7 @@ namespace BenchmarkingFramework
 
         int Hash(int key)
         {
-            long intermediary = 1 + key * key;
+            long intermediary = 1 + key * key ;
             int maxIndex = containedArray.Length - 1;
 
             if (intermediary % maxIndex != 0)
@@ -90,7 +110,7 @@ namespace BenchmarkingFramework
 
         int Chaining(int hashValue)
         {
-            if (hashValue <= containedArray.Length-1)
+            if (hashValue < containedArray.Length-1)
                 hashValue++;
             else
                 hashValue = 1;

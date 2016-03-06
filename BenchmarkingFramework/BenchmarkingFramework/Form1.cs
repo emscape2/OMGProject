@@ -48,7 +48,7 @@ namespace BenchmarkingFramework
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
-            tenK = checkBox4.Checked;
+            oneMille = checkBox4.Checked;
         }
 
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace BenchmarkingFramework
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
-            oneMille = checkBox5.Checked;
+            tenK = checkBox5.Checked;
         }
 
         private void button1_Click(object sender, EventArgs e)

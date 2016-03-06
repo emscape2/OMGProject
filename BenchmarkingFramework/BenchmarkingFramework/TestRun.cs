@@ -32,7 +32,7 @@ namespace BenchmarkingFramework
         public void Run(int[] testArray, string arraytype)
         {
             size = testArray.Length;
-            arrayType = arraytype;
+            arrayType = arraytype + " " + algorithmType;
 
             Stopwatch timer = new Stopwatch();
 
