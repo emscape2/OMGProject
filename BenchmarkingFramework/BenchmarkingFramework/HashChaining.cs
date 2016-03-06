@@ -30,6 +30,7 @@ namespace BenchmarkingFramework
         /// <param name="size">The required size.</param>
         public HashChaining(int size)
         {
+            SIZE = size;
             _table = new LinkedListNode[SIZE];
         }
 
