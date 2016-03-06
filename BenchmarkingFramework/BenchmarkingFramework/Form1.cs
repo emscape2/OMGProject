@@ -99,7 +99,8 @@ namespace BenchmarkingFramework
             }
             TreeAlgorithm[] algs = new TreeAlgorithm[] {
                 new HashOpenAdressing(),
-                new LinkedList()
+                new LinkedList(),
+                new HashChaining()
             };
             Benchmark benchmark = new Benchmark(sizes.ToArray(), gens.ToArray(), algs) ;
         }
