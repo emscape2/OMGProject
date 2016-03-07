@@ -9,6 +9,7 @@ namespace BenchmarkingFramework
     class TestData
     {
         public string arrayType;
+        public string dataType;
         public int arraySize;
         public double buildTime;
         public double insertTime;
@@ -16,8 +17,9 @@ namespace BenchmarkingFramework
         public double lookupTime;
         public long memorySize;
 
-        public TestData(string type, int size, double build, double insert, double delete, double lookup, long memSize)
+        public TestData(string type, string dataT, int size, double build, double insert, double delete, double lookup, long memSize)
         {
+            dataType = dataT;
             arrayType = type;
             arraySize = size;
             buildTime = build;

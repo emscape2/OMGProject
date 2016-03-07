@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace BenchmarkingFramework
 {
-    class TreeAlgorithm : ICloneable
+    class TreeAlgorithm
     {
+        public virtual string GetDataType()
+        {
+            return "TreeAlgorithm";
+        }
 
         /// <summary>
         /// builds the datastructure

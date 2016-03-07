@@ -117,5 +117,10 @@ namespace BenchmarkingFramework
 
             return hashValue;
         }
+
+        public override string GetDataType()
+        {
+            return "Hash Open Adressing";
+        }
     }
 }

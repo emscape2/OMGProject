@@ -98,5 +98,10 @@ namespace BenchmarkingFramework
         {
             return new LinkedList();
         }
+
+        public override string GetDataType()
+        {
+            return "Linked List" ;
+        }
     }
 }

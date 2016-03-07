@@ -14,15 +14,14 @@ namespace BenchmarkingFramework
     {
         private LinkedListNode[] _table;
         private int SIZE;
-        private const int DEFAULT_SIZE = 10000020;
+        public const int DEFAULT_SIZE = 500009;
 
         /// <summary>
         /// Constructor with default table size of 10000020.
         /// </summary>
-        public HashChaining()
+        public HashChaining() : this (DEFAULT_SIZE)
         {
-            new HashChaining(DEFAULT_SIZE);
-        }
+        }       
 
         /// <summary>
         /// Call this constructor to set the size manually.
@@ -42,7 +41,7 @@ namespace BenchmarkingFramework
         public override int Lookup(int key)
         {
             int hash = key % SIZE;
-            if (_table[SIZE] == null)
+            if (_table[hash] == null)
                 return -1;
             else
             {
@@ -80,6 +79,15 @@ namespace BenchmarkingFramework
             LinkedListNode currentNode = _table[hash];
             if (currentNode != null && currentNode.key == key)
                 _table[hash].value = value;
+            
+            //Emiels code checks for empty nodes
+            if (currentNode == null)
+            {
+                _table[hash] = new LinkedListNode(key, value);
+                return;
+            }
+
+
             while (currentNode.next != null && currentNode.next.key != key)
                 currentNode = currentNode.next;
             if (currentNode.next == null)
@@ -98,6 +106,11 @@ namespace BenchmarkingFramework
         {
             int hash = key % SIZE;
             LinkedListNode currentNode = _table[hash];
+
+            //failcheck by emiel
+            if (currentNode == null)
+                return false;
+
             if (currentNode.key == key)
             {
                 _table[hash] = null;
@@ -125,6 +138,17 @@ namespace BenchmarkingFramework
         private int getAValue()
         {
             return 42;
+        }
+
+
+        public override string GetDataType()
+        {
+            return "HashChaining, memsize: " + SIZE.ToString();
+        }
+
+        public override object Clone()
+        {
+            return new HashChaining(SIZE);
         }
     }
 }

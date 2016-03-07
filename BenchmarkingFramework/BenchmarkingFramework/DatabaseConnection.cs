@@ -23,7 +23,7 @@ new SQLiteConnection("Data Source=" +Form1.location +"/Database.db;Version=3;");
         public void AddResults(TestData data)
         {
             int key = getKey("results");
-            QueryDatabase("INSERT INTO results (id, arraytype, arraysize, buildtime, inserttime, lookuptime, deletetime, memsize) VALUES (" + key.ToString() + ", '" + data.arrayType + "'," + data.arraySize.ToString() + ", '" + data.buildTime.ToString() + "', '" + data.insertTime.ToString() + "', '" + data.lookupTime.ToString() + "', '" + data.deleteTime.ToString() + "', " + data.memorySize.ToString() + ");", true);
+            QueryDatabase("INSERT INTO results (id, arraytype, datatype, arraysize, buildtime, inserttime, lookuptime, deletetime, memsize) VALUES (" + key.ToString() + ", '" + data.arrayType + "', '" + data.dataType + "', " + data.arraySize.ToString() + ", '" + data.buildTime.ToString() + "', '" + data.insertTime.ToString() + "', '" + data.lookupTime.ToString() + "', '" + data.deleteTime.ToString() + "', " + data.memorySize.ToString() + ");", true);
         }
 
         public int getKey(string table, string id)

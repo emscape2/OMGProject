@@ -32,8 +32,7 @@ namespace BenchmarkingFramework
         public void Run(int[] testArray, string arraytype)
         {
             size = testArray.Length;
-            arrayType = arraytype + " " + algorithmType;
-
+            arrayType = arraytype;
             Stopwatch timer = new Stopwatch();
 
             timer.Start();
@@ -41,6 +40,7 @@ namespace BenchmarkingFramework
             timer.Stop();
             buildTime = timer.Elapsed;
 
+            
             int[] lookupValues = new int[1000];
             for (int i = 0; i < 1000; i++)
             {
@@ -73,13 +73,15 @@ namespace BenchmarkingFramework
             timer.Stop();
             lookupTime = timer.Elapsed;
 
-            finishingMemory = GC.GetTotalMemory(false);
+            finishingMemory = GC.GetTotalMemory(false);//measure the total memory when fully built
+            
+
             Finish();
         }
 
         public void Finish()
         {
-            TestData data = new TestData(arrayType, size, buildTime.TotalMilliseconds, insertTime.TotalMilliseconds, deleteTime.TotalMilliseconds, lookupTime.TotalMilliseconds, finishingMemory - startingMemory);
+            TestData data = new TestData(arrayType, algorithmType, size, buildTime.TotalMilliseconds, insertTime.TotalMilliseconds, deleteTime.TotalMilliseconds, lookupTime.TotalMilliseconds, finishingMemory - startingMemory);
             DatabaseConnection temp = new DatabaseConnection();
             temp.AddResults(data);
             

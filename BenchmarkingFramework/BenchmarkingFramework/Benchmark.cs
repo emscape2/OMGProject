@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace BenchmarkingFramework
 {/// <summary>
@@ -11,6 +11,7 @@ namespace BenchmarkingFramework
     class Benchmark
     {
         int[] arraySizes;
+        public static int GCCounter = 0;
         ArrayGenerator[] arrayGenerators;
         TreeAlgorithm[] treeAlgorithms;
         
@@ -29,22 +30,34 @@ namespace BenchmarkingFramework
         {
             foreach (ArrayGenerator gen in arrayGenerators)
             {
+
+
                 foreach (int size in arraySizes)
                 {
 
                     int[] testArray = gen.GenerateArray(size, 0);
-                    TestRun.startingMemory = GC.GetTotalMemory(true);
+
 
                     foreach (TreeAlgorithm alg in treeAlgorithms)
                     {
+
+                        GC.Collect();
+                        GCCounter++;
+                        Thread.Sleep(100);
+                        GC.WaitForPendingFinalizers();
+
+                        TestRun.startingMemory = GC.GetTotalMemory(false);
+
+
                         for (int i = 0; i != 1; i++)
                         {
                             TreeAlgorithm algorithm = alg.Clone() as TreeAlgorithm;
-
-                            TestRun testRun = new TestRun(alg, alg.GetType().ToString());
+                            TestRun testRun = new TestRun(algorithm, algorithm.GetDataType());
                             testRun.Run(testArray, gen.GetType().ToString());
+                            
+                            //values to make the gc not claim data too early
+                            int gchelp = testArray.Length;
                         }
-                        GC.Collect();
                     }
                 }
             }
