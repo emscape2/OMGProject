@@ -6,23 +6,40 @@ using System.Threading.Tasks;
 
 namespace BenchmarkingFramework
 {
+    struct KeyValue
+    {
+        public int key;
+        public int value;
+        public KeyValue(int Key, int Value)
+        {
+            key = Key;
+            value = Value;
+        }
+    }
+
     class HashOpenAdressing : TreeAlgorithm
     {
-        int[] containedArray;
+        KeyValue[] containedArray;
 
         public HashOpenAdressing()
         {
-            containedArray = new int[10000020];
             
         }
 
         public override void Build(int[] array)
         {
+            if (array.Length > 5000)
+                containedArray = new KeyValue[(int)(array.Length * 1.66f)];
+            else
+                containedArray = new KeyValue[10000];
+
             foreach (int i in array)
             {
                 Insert(i);
             }
         }
+
+        
 
         public override void Insert(int key)
         {
@@ -31,7 +48,7 @@ namespace BenchmarkingFramework
             Delete(key); // Insert needs to replace
             int index = GetFreeIndex(key);
             if (index == -1) throw new Exception("No more room in the table");
-            containedArray[index] = key;
+            containedArray[index] = new KeyValue(key,key);
         }
 
         public override bool Delete(int key)
@@ -40,7 +57,7 @@ namespace BenchmarkingFramework
                 return false;
             int index = GetIndexWithValue(key,key,true);
             if (index == -1) return false;
-            containedArray[index] = -1;
+            containedArray[index] = new KeyValue(-1, -1);
             return true;
         }
 
@@ -50,7 +67,7 @@ namespace BenchmarkingFramework
                 return 0;
             int index = GetIndex(key);
             if (index == -1) return -1;
-            return containedArray[index];
+            return containedArray[index].key;
         }
 
         public int GetIndex(int key)
@@ -70,7 +87,7 @@ namespace BenchmarkingFramework
             if (key == 0)
             {
 
-                while (containedArray[hashValue] != 0 || containedArray[hashValue] != -1)
+                while (containedArray[hashValue].key != 0 || containedArray[hashValue].key != -1)
                 {
                     counter++;
                     if (counter > containedArray.Length)
@@ -80,11 +97,11 @@ namespace BenchmarkingFramework
             }
             else
             {
-                while (containedArray[hashValue] != value)
+                while (containedArray[hashValue].key != value)
                 {
 
                     counter++;
-                    if ((deletion && containedArray[hashValue] == 0) || counter > containedArray.Length)
+                    if ((deletion && containedArray[hashValue].key == 0) || counter > containedArray.Length)
                         return -1;
                     hashValue = Chaining(hashValue);
                 }
