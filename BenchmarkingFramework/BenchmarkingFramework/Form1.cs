@@ -98,13 +98,8 @@ namespace BenchmarkingFramework
                 gens.Add(new GroupedArrayGenerator());
             }
             TreeAlgorithm[] algs = new TreeAlgorithm[] {
-                new HashOpenAdressing(),
-                new HashChaining(1000003),
-                new HashChaining(HashChaining.DEFAULT_SIZE),
-                new HashChaining(250007),
-                new HashChaining(100003),
-                new HashChaining(50021),
-                new BalancedBinarySearchTree(),
+                new HashOpenAddressing(),
+                new HashChaining(),
                 new RBTree()
                 //new LinkedList()
             };

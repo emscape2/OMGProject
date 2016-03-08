@@ -15,14 +15,13 @@ namespace BenchmarkingFramework
         public TimeSpan lookupTime;
         public static long startingMemory;
         public long finishingMemory;
-        public string  arrayType, algorithmType;
+        public string  arrayType;
         public int size;
 
 
-        public TestRun(TreeAlgorithm testAlgorithm, string algorithmtype)
+        public TestRun(TreeAlgorithm testAlgorithm)
         {
             algorithm = testAlgorithm;
-            algorithmType = algorithmtype;
         }
         /// <summary>
         /// runs the test and takes the benchmark values
@@ -35,9 +34,17 @@ namespace BenchmarkingFramework
             arrayType = arraytype;
             Stopwatch timer = new Stopwatch();
 
+            GC.Collect();
+            startingMemory = GC.GetTotalMemory(true);
+
             timer.Start();
+
             algorithm.Build(testArray);
+
             timer.Stop();
+
+            finishingMemory = GC.GetTotalMemory(false);
+
             buildTime = timer.Elapsed;
 
             
@@ -72,8 +79,6 @@ namespace BenchmarkingFramework
             }
             timer.Stop();
             lookupTime = timer.Elapsed;
-
-            finishingMemory = GC.GetTotalMemory(false);//measure the total memory when fully built
             
 
             Finish();
@@ -81,7 +86,7 @@ namespace BenchmarkingFramework
 
         public void Finish()
         {
-            TestData data = new TestData(arrayType, algorithmType, size, buildTime.TotalMilliseconds, insertTime.TotalMilliseconds, deleteTime.TotalMilliseconds, lookupTime.TotalMilliseconds, finishingMemory - startingMemory);
+            TestData data = new TestData(arrayType, algorithm.GetDataType(), size, buildTime.TotalMilliseconds, insertTime.TotalMilliseconds, deleteTime.TotalMilliseconds, lookupTime.TotalMilliseconds, finishingMemory - startingMemory);
             DatabaseConnection temp = new DatabaseConnection();
             temp.AddResults(data);
             

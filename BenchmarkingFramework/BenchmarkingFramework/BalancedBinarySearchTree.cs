@@ -24,6 +24,11 @@ namespace BenchmarkingFramework
             empty.parent = empty;
         }
 
+        public override string GetDataType()
+        {
+            return "BalancedBinarySearchTree";
+        }
+
         /// <summary>
         /// Performs a left-rotation on a binary tree
         /// </summary>

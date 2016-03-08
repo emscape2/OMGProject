@@ -36,7 +36,7 @@ namespace BenchmarkingFramework
         /// <param name="key"></param>
         public virtual bool Delete(int key)
         {
-            return true;
+            return false;
         }
 
         /// <summary>
@@ -46,13 +46,9 @@ namespace BenchmarkingFramework
         /// <returns></returns>
         public virtual int Lookup( int key)
         {
-            return 0;
+            return -1;
         }
 
-        public virtual int GetIndex(int key)
-        {
-            return 0;
-        }
 
         /// <summary>
         /// returns empty datastructure of the same type
