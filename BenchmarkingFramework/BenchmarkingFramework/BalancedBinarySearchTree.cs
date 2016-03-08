@@ -202,6 +202,11 @@ namespace BenchmarkingFramework
             return false;
         }
 
+        public override string GetDataType()
+        {
+            return "RBTree";
+        }
+
         /// <summary>
         /// Restore RB tree properties after insertion
         /// </summary>
