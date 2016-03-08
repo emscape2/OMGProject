@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
+using System.IO;
 
 namespace BenchmarkingFramework
 {
@@ -13,11 +14,29 @@ namespace BenchmarkingFramework
 
         public DatabaseConnection()
         {
-            m_dbConnection =
-new SQLiteConnection("Data Source=" +Form1.location +"/Database.db;Version=3;");
-            m_dbConnection.Open();
-
-
+            
+            if (File.Exists(Form1.location + "/Database.db"))
+            {
+                m_dbConnection = new SQLiteConnection("Data Source=" + Form1.location + "/Database.db;Version=3;");
+                m_dbConnection.Open();
+            }
+            else
+            {
+                m_dbConnection = new SQLiteConnection("Data Source=" + Form1.location + "/Database.db;Version=3;");
+                m_dbConnection.Open();
+                String sql = "CREATE TABLE results" +
+                    " (id varchar (255),"           + 
+                    " arraytype varchar(255),"      +
+                    " datatype varchar(255),"       +
+                    " arraysize varchar(255),"      +
+                    " buildtime varchar(255),"      +
+                    " inserttime varchar(255),"     +
+                    " lookuptime varchar(255),"     +
+                    " deletetime varchar(255),"     +
+                    " memsize varchar(255)) ";
+                SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+                command.ExecuteNonQuery();
+            }
         }
 
         public void AddResults(TestData data)
