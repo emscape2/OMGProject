@@ -1,3 +1,4 @@
+sep=,
 id,arraytype,datatype,arraysize,buildtime,inserttime,lookuptime,deletetime,memsize
 0,BenchmarkingFramework.RandomArrayGenerator,"Hash Open Addressing, length = 1000",1000,1.3371,0.245,0.1722,0.2777,80024
 1,BenchmarkingFramework.RandomArrayGenerator,"HashChaining, length = 1002",1000,1.1033,0.0644,0.1652,0.2314,2024640
