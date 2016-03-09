@@ -104,8 +104,9 @@ namespace BenchmarkingFramework
                 new HashChaining(250007),
                 new HashChaining(100003),
                 new HashChaining(50021),
+                new AVLTree(),
                 //new BalancedBinarySearchTree(),
-                new RBTree()
+                //new RBTree()
                 //new LinkedList()
             };
             Benchmark benchmark = new Benchmark(sizes.ToArray(), gens.ToArray(), algs) ;
