@@ -25,7 +25,7 @@ namespace BenchmarkingFramework
                 m_dbConnection = new SQLiteConnection("Data Source=" + Form1.location + "/Database.db;Version=3;");
                 m_dbConnection.Open();
                 String sql = "CREATE TABLE results" +
-                    " (id varchar (255),"           + 
+                    " (id INTEGER PRIMARY KEY,"     + 
                     " arraytype varchar(255),"      +
                     " datatype varchar(255),"       +
                     " arraysize varchar(255),"      +
@@ -42,7 +42,7 @@ namespace BenchmarkingFramework
         public void AddResults(TestData data)
         {
             int key = getKey("results");
-            QueryDatabase("INSERT INTO results (id, arraytype, datatype, arraysize, buildtime, inserttime, lookuptime, deletetime, memsize) VALUES (" + key.ToString() + ", '" + data.arrayType + "', '" + data.dataType + "', " + data.arraySize.ToString() + ", '" + data.buildTime.ToString() + "', '" + data.insertTime.ToString() + "', '" + data.lookupTime.ToString() + "', '" + data.deleteTime.ToString() + "', " + data.memorySize.ToString() + ");", true);
+            QueryDatabase("INSERT INTO results (arraytype, datatype, arraysize, buildtime, inserttime, lookuptime, deletetime, memsize) VALUES ('" + data.arrayType + "', '" + data.dataType + "', " + data.arraySize.ToString() + ", '" + data.buildTime.ToString() + "', '" + data.insertTime.ToString() + "', '" + data.lookupTime.ToString() + "', '" + data.deleteTime.ToString() + "', " + data.memorySize.ToString() + ");", true);
         }
 
         public int getKey(string table, string id)
