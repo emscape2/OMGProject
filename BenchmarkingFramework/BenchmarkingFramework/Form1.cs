@@ -104,7 +104,7 @@ namespace BenchmarkingFramework
                 new HashChaining(250007),
                 new HashChaining(100003),
                 new HashChaining(50021),
-                new BalancedBinarySearchTree(),
+                //new BalancedBinarySearchTree(),
                 new RBTree()
                 //new LinkedList()
             };
