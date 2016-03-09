@@ -30,8 +30,6 @@ namespace BenchmarkingFramework
         {
             foreach (ArrayGenerator gen in arrayGenerators)
             {
-
-
                 foreach (int size in arraySizes)
                 {
 
@@ -49,7 +47,7 @@ namespace BenchmarkingFramework
                         //TestRun.startingMemory = GC.GetTotalMemory(false);
 
 
-                        for (int i = 0; i != 1; i++)
+                        for (int i = 0; i < 5; i++)
                         {
                             TreeAlgorithm algorithm = alg.Clone() as TreeAlgorithm;
                             TestRun testRun = new TestRun(algorithm);
