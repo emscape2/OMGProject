@@ -20,7 +20,7 @@ namespace BenchmarkingFramework
             arraySizes = sizes;
             arrayGenerators = generators;
             treeAlgorithms = algorithms;
-            TestRun.startingMemory = GC.GetTotalMemory(true);
+            //TestRun.startingMemory = GC.GetTotalMemory(true);
             RunAll();
         }
         /// <summary>
@@ -41,18 +41,18 @@ namespace BenchmarkingFramework
                     foreach (TreeAlgorithm alg in treeAlgorithms)
                     {
 
-                        GC.Collect();
-                        GCCounter++;
-                        Thread.Sleep(100);
-                        GC.WaitForPendingFinalizers();
+                        //GC.Collect();
+                        //GCCounter++;
+                        //Thread.Sleep(100);
+                        //GC.WaitForPendingFinalizers();
 
-                        TestRun.startingMemory = GC.GetTotalMemory(false);
+                        //TestRun.startingMemory = GC.GetTotalMemory(false);
 
 
                         for (int i = 0; i != 1; i++)
                         {
                             TreeAlgorithm algorithm = alg.Clone() as TreeAlgorithm;
-                            TestRun testRun = new TestRun(algorithm, algorithm.GetDataType());
+                            TestRun testRun = new TestRun(algorithm);
                             testRun.Run(testArray, gen.GetType().ToString());
                             
                             //values to make the gc not claim data too early

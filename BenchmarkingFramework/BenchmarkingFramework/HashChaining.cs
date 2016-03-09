@@ -13,24 +13,27 @@ namespace BenchmarkingFramework
     class HashChaining : TreeAlgorithm
     {
         private LinkedListNode[] _table;
-        private int SIZE;
         public const int DEFAULT_SIZE = 500009;
+        double GROW_THRESHOLD = 2.0; // Average of 2 entries per bucket
+        double GROW_RATE = 2.0;
 
-        /// <summary>
-        /// Constructor with default table size of 10000020.
-        /// </summary>
-        public HashChaining() : this (DEFAULT_SIZE)
-        {
-        }       
+        int length;
 
-        /// <summary>
-        /// Call this constructor to set the size manually.
-        /// </summary>
-        /// <param name="size">The required size.</param>
-        public HashChaining(int size)
+
+        public override void Build(int[] array)
         {
-            SIZE = size;
-            _table = new LinkedListNode[SIZE];
+            int size = DEFAULT_SIZE;
+            while (array.Length > size * GROW_THRESHOLD)
+            {
+                size = (int)(size * GROW_RATE);
+            }
+            _table = new LinkedListNode[size];
+
+            length = 0;
+            foreach (int i in array)
+            {
+                Insert(i);
+            }
         }
 
         /// <summary>
@@ -40,7 +43,7 @@ namespace BenchmarkingFramework
         /// <returns></returns>
         public override int Lookup(int key)
         {
-            int hash = key % SIZE;
+            int hash = key % _table.Length;
             if (_table[hash] == null)
                 return -1;
             else
@@ -64,7 +67,7 @@ namespace BenchmarkingFramework
         public override void Insert(int key)
         {
             int value = getAValue();
-            Insert(key, value);
+            Insert(new LinkedListNode(key, value));
         }
 
         /// <summary>
@@ -72,18 +75,28 @@ namespace BenchmarkingFramework
         /// </summary>
         /// <param name="key"></param>
         /// <param name="value"></param>
-        public void Insert (int key, int value)
+        public void Insert (LinkedListNode node)
         {
+            // Grow();
+
+            int key = node.key;
+            int value = node.value;
             // largest possible hash is SIZE-1
-            int hash = key % SIZE;
+            int hash = key % _table.Length;
             LinkedListNode currentNode = _table[hash];
             if (currentNode != null && currentNode.key == key)
+            {
+                length++;
                 _table[hash].value = value;
+                return;
+            }
+
             
             //Emiels code checks for empty nodes
             if (currentNode == null)
             {
-                _table[hash] = new LinkedListNode(key, value);
+                length++;
+                _table[hash] = node;
                 return;
             }
 
@@ -91,11 +104,30 @@ namespace BenchmarkingFramework
             while (currentNode.next != null && currentNode.next.key != key)
                 currentNode = currentNode.next;
             if (currentNode.next == null)
-                currentNode.next = new LinkedListNode(key, value);
+            {
+                length++;
+                currentNode.next = node;
+            }
             else
                 currentNode.next.value = value;
             return;
         }
+
+        /*
+        void Grow()
+        {
+            if (length <= _table.Length * GROW_THRESHOLD) return;
+
+            LinkedListNode[] oldArray = (LinkedListNode[])_table.Clone();
+            _table = new LinkedListNode[(int)(oldArray.Length * GROW_RATE)];
+            length = 0;
+            foreach (LinkedListNode node in oldArray)
+            {
+                // Doesn't work right, because each of the connected entries should be reinserted
+                Insert(node);
+            }
+        }
+        */
 
         /// <summary>
         /// Tries to delete the node with the given key.
@@ -104,7 +136,7 @@ namespace BenchmarkingFramework
         /// <returns>returns true on success, false on failure.</returns>
         public override bool Delete(int key)
         {
-            int hash = key % SIZE;
+            int hash = key % _table.Length;
             LinkedListNode currentNode = _table[hash];
 
             //failcheck by emiel
@@ -113,6 +145,7 @@ namespace BenchmarkingFramework
 
             if (currentNode.key == key)
             {
+                length--;
                 _table[hash] = null;
                 return true;
             }
@@ -120,16 +153,13 @@ namespace BenchmarkingFramework
                 currentNode = currentNode.next;
             if (currentNode.next != null && currentNode.next.key == key)
             {
+                length--;
                 currentNode.next = null;
                 return true;
             }
             return false;
         }
 
-        public override int GetIndex(int key)
-        {
-            return base.GetIndex(key);
-        }
 
         /// <summary>
         /// gives back "a" value for storing
@@ -143,12 +173,12 @@ namespace BenchmarkingFramework
 
         public override string GetDataType()
         {
-            return "HashChaining, memsize: " + SIZE.ToString();
+            return "HashChaining, length = " + length;
         }
 
         public override object Clone()
         {
-            return new HashChaining(SIZE);
+            return new HashChaining();
         }
     }
 }

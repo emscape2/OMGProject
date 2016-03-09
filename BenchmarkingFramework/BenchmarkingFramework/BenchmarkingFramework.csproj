@@ -61,7 +61,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="HashChaining.cs" />
-    <Compile Include="HashOpenAdressing.cs" />
+    <Compile Include="HashOpenAddressing.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

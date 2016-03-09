@@ -9,7 +9,7 @@ namespace BenchmarkingFramework
 
     /*
     * Red-Black trees have the properties in common with binary search trees
-    * that all key values of nodes to the left of a node n are less than the key 
+    * that all key values of nodes to the left of a node n are less than the key
     * of node n and all key values of nodes to the right of n are
     * greater than the key of node n.
     * Red-Black trees also satisfy the properties:
@@ -44,9 +44,9 @@ namespace BenchmarkingFramework
         }
 
         /*
-        * NIL uses the singleton pattern to represent the NIL sentinel.  
+        * NIL uses the singleton pattern to represent the NIL sentinel.
         * All leafs in a red-black tree are NIL.
-        * In this implementation we leave all values of the node as null 
+        * In this implementation we leave all values of the node as null
         * except for the color which is black.
         * */
         private class NIL
@@ -57,7 +57,7 @@ namespace BenchmarkingFramework
             {
             }
             /*
-            * Check to see if _instance has already been created, if it has 
+            * Check to see if _instance has already been created, if it has
             * return that otherwise create _instance.
             * As a note this uses lazy initialization and is not thread safe.
             * */
@@ -74,8 +74,8 @@ namespace BenchmarkingFramework
         }
 
         /*
-        * RBInsert and RBDelete modify the tree which may result in a violation of the 
-        * red-black poperties. In order to fix this we may need to "move around" some of 
+        * RBInsert and RBDelete modify the tree which may result in a violation of the
+        * red-black poperties. In order to fix this we may need to "move around" some of
         * the nodes as well as their colors.  LeftRotate and RightRotate help us do this.
         * */
         private Node LeftRotate(Node x)
@@ -129,7 +129,7 @@ namespace BenchmarkingFramework
         }
 
         /*
-        * 
+        *
         * */
         public void RBInsert(Key kz, Value vz)
         {
@@ -356,8 +356,8 @@ namespace BenchmarkingFramework
 
         /*
         * This function is called when y in RBDelete is black.  If y had been the root and a red
-        * child of y becomes the new root we have violated property 2.  If both x and x.parent are red then 
-        * we have violated property 4.  Finally, by moving y within the tree may cause a simple path 
+        * child of y becomes the new root we have violated property 2.  If both x and x.parent are red then
+        * we have violated property 4.  Finally, by moving y within the tree may cause a simple path
         * to contain one fewer black nodes which violates property 5.
         * */
         private void RBDeleteFixup(Node x)
@@ -436,9 +436,9 @@ namespace BenchmarkingFramework
         }
 
         /*
-        * To find the minimum of the tree from node n (including 
+        * To find the minimum of the tree from node n (including
         * the root) we just keep going down the left branches until there
-        * are no more nodes. 
+        * are no more nodes.
         * */
         private Node RBTreeMinimum(Node x)
         {
@@ -451,7 +451,7 @@ namespace BenchmarkingFramework
 
         /*
         * To find the maximum of the three from node n (including
-        * the root) we just keep going down the right braches until there 
+        * the root) we just keep going down the right braches until there
         * are no more nodes.
         * */
         private Node RBTreeMaximum(Node x)
@@ -469,7 +469,7 @@ namespace BenchmarkingFramework
         }
 
         /*
-        * Search the tree for a specific tree starting at a given node. 
+        * Search the tree for a specific tree starting at a given node.
         * If the search key is equal to the key of Node x go we've found the
         * node.  If it is left go down the left subtree, if greater go down the right subtree.
         * Recursively call this function which will keep comparing and going down the tree to
