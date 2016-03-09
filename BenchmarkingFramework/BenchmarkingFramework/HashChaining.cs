@@ -173,7 +173,7 @@ namespace BenchmarkingFramework
 
         public override string GetDataType()
         {
-            return "HashChaining, length = " + length;
+            return "HashChaining";
         }
 
         public override object Clone()
