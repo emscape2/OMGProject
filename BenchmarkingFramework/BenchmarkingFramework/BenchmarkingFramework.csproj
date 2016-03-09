@@ -37,7 +37,11 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SQLite">
+<<<<<<< HEAD
       <HintPath>bin\System.Data.SQLite.dll</HintPath>
+=======
+      <HintPath>System.Data.SQLite.dll</HintPath>
+>>>>>>> master
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -61,7 +65,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="HashChaining.cs" />
+<<<<<<< HEAD
     <Compile Include="HashOpenAddressing.cs" />
+=======
+    <Compile Include="HashOpenAdressing.cs" />
+>>>>>>> master
     <Compile Include="LinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
