@@ -193,7 +193,7 @@ namespace BenchmarkingFramework
 
         public override string GetDataType()
         {
-            return "Hash Open Addressing, length = " + length;
+            return "Hash Open Addressing";
         }
     }
 }
