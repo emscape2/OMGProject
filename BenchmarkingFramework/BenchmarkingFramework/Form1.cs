@@ -22,12 +22,13 @@ namespace BenchmarkingFramework
         private void button1_Click(object sender, EventArgs e)
         {
             int[] sizes = new int[] {
+                10,
+                100,
+                300,
                 1000,
+                3000,
                 10000,
-                100000,
-                215000,
-                464000,
-                1000000
+                100000
             };
             ArrayGenerator[] gens = new ArrayGenerator[] {
                 new RandomArrayGenerator(),

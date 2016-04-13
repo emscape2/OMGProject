@@ -47,7 +47,7 @@ namespace BenchmarkingFramework
                         //TestRun.startingMemory = GC.GetTotalMemory(false);
 
 
-                        for (int i = 0; i < 5; i++)
+                        for (int i = 0; i < 10; i++)
                         {
                             TreeAlgorithm algorithm = alg.Clone() as TreeAlgorithm;
                             TestRun testRun = new TestRun(algorithm);

@@ -47,11 +47,11 @@ namespace BenchmarkingFramework
 
             buildTime = timer.Elapsed;
 
-            
-            int[] lookupValues = new int[1000];
-            for (int i = 0; i < 1000; i++)
+            int lookupValuesCount = Math.Min(1000, testArray.Length);
+            int[] lookupValues = new int[lookupValuesCount];
+            for (int i = 0; i < lookupValuesCount; i++)
             {
-                lookupValues[i] = testArray[i * (testArray.Length / 1000)];
+                lookupValues[i] = testArray[i * (testArray.Length / lookupValuesCount)];
             }
 
             timer.Restart();
