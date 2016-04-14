@@ -50,8 +50,8 @@ namespace BenchmarkingFramework
 
     class HashOpenAddressing : TreeAlgorithm
     {
-        int DEFAULT_SIZE = 10000;
-        double GROW_THRESHOLD = 0.8;
+        int DEFAULT_SIZE = 16;
+        double GROW_THRESHOLD = 0.67;
         double GROW_RATE = 2.0;
 
         KeyValue[] containedArray;

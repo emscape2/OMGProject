@@ -1,841 +1,961 @@
 id;arraytype;datatype;arraysize;buildtime;inserttime;lookuptime;deletetime;memsize
-1;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;1.142;0.0709;0.0807;0.1666;80024
-2;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0093;0.0023;0.0009;0.0018;80024
-3;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0116;0.0028;0.0009;0.0014;80024
-4;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0088;0.0023;0.0009;0.0018;80024
-5;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.062;0.0028;0.0009;0.0014;80024
-6;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0331;0.0023;0.0009;0.0018;80024
-7;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0093;0.0023;0.0014;0.0014;80024
-8;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.035;0.0028;0.0009;0.0018;80024
-9;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0336;0.0023;0.0009;0.0014;80024
-10;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0093;0.0023;0.0009;0.0014;80024
-11;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.567;0.0009;0.1148;0.1614;2008256
-12;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.1442;0.0004;0.0009;0.0004;2008256
-13;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0298;0.0009;0.0009;0.0004;2008256
-14;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.1204;0.0014;0.0009;0.0009;2008256
-15;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0574;0.0009;0.0004;0.0004;2008256
-16;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0308;0.0009;0.0004;0.0009;2008256
-17;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.028;0.0009;0.0004;0.0009;2008256
-18;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0289;0.0009;0.0004;0.0004;2008256
-19;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0322;0.0009;0.0004;0.0009;2008256
-20;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0298;0.0004;0.0004;0.0009;2008256
-21;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;1.4762;0.0639;0.2926;0.9572;8192
-22;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.007;0.0023;0.0014;0.0032;8192
-23;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0098;0.0014;0.0009;0.0028;8192
-24;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0009;0.0023;8192
-25;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0065;0.0018;0.0014;0.0023;8192
-26;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0014;0.0023;8192
+1;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;1.1985;0.0037;0.1064;0.251;8192
+2;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.006;0.0037;0.0014;0.0018;8192
+3;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.006;0.0028;0.0009;0.0014;8192
+4;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0051;0.0028;0.0009;0.0014;8192
+5;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0014;8192
+6;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+7;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+8;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0018;8192
+9;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0018;8192
+10;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0018;8192
+11;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.5642;0.0009;0.1152;0.1801;8192
+12;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0009;0.0004;8192
+13;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0004;8192
+14;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0009;8192
+15;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0037;0.0009;0.0009;0.0004;8192
+16;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0009;8192
+17;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0037;0.0009;0.0009;0.0004;8192
+18;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0009;8192
+19;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0037;0.0004;0.0009;0.0004;8192
+20;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10;0.0037;0.0004;0.0004;0.0009;8192
+21;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;1.2447;0.0578;0.1988;0.8251;8192
+22;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0051;0.0014;0.0009;0.0023;8192
+23;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0009;0.0023;8192
+24;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0056;0.0014;0.0009;0.0028;8192
+25;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0056;0.0018;0.0009;0.0023;8192
+26;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0009;0.0023;8192
 27;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0014;0.0023;8192
-28;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0056;0.0018;0.0014;0.0028;8192
-29;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0102;0.0018;0.0014;0.0023;8192
+28;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0009;0.0023;8192
+29;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0009;0.0023;8192
 30;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0014;0.0023;8192
-31;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0266;0.0214;0.0084;0.0107;80024
-32;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0266;0.0242;0.0084;0.0107;80024
-33;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0261;0.021;0.0088;0.0102;80024
-34;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0256;0.0205;0.0084;0.0102;80024
-35;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.048;0.021;0.0088;0.0107;80024
-36;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0513;0.0247;0.0093;0.0116;80024
-37;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0261;0.021;0.0084;0.0107;80024
-38;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0793;0.0266;0.0107;0.0135;80024
-39;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0466;0.0214;0.0088;0.0107;80024
-40;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0289;0.0224;0.0088;0.0112;80024
-41;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1232;0.006;0.0042;0.0042;2008256
-42;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1096;0.0065;0.0042;0.0042;2008256
-43;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.174;0.0102;0.0056;0.0056;2008256
-44;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1106;0.007;0.0046;0.0046;2008256
-45;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1078;0.006;0.0037;0.0042;2008256
-46;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1073;0.006;0.0037;0.0042;2008256
-47;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1031;0.006;0.0037;0.0042;2008256
-48;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1036;0.006;0.0037;0.0037;2008256
-49;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1008;0.006;0.0037;0.0046;2008256
-50;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.1036;0.006;0.0037;0.0042;2008256
-51;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0298;0.021;0.0135;0.0224;8192
-52;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0303;0.021;0.0135;0.0224;8192
-53;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0275;0.0196;0.013;0.0214;8192
-54;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0238;0.02;0.0126;0.0214;8192
-55;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0247;0.0205;0.0126;0.0214;8192
-56;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0294;0.0196;0.013;0.0214;8192
-57;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0294;0.0196;0.013;0.021;8192
-58;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.028;0.0196;0.013;0.0214;8192
-59;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0289;0.02;0.013;0.021;8192
-60;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0284;0.0196;0.0126;0.0214;8192
-61;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0891;0.069;0.027;0.0345;80024
-62;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0728;0.0732;0.0256;0.034;80024
-63;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.062;0.0616;0.0247;0.0312;80024
-64;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0653;0.0653;0.0256;0.0322;80024
-65;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0667;0.0653;0.0256;0.0322;80024
-66;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0896;0.0905;0.0261;0.0322;80024
-67;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0863;0.0634;0.0256;0.0322;80024
-68;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0695;0.07;0.027;0.034;80024
-69;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0877;0.0634;0.0256;0.0322;80024
-70;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;300;0.0863;0.0634;0.0256;0.0322;80024
-71;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.2679;0.021;0.0121;0.0172;2008256
-72;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.2011;0.021;0.0112;0.0112;2008256
-73;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.251;0.0214;0.0112;0.0116;2008256
-74;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.2711;0.0252;0.0126;0.0191;2008256
-75;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.2053;0.021;0.0112;0.0116;2008256
-76;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.2048;0.021;0.0112;0.0112;2008256
-77;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.2361;0.0233;0.0121;0.0144;2008256
-78;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.209;0.0214;0.0116;0.0116;2008256
-79;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.203;0.0214;0.0121;0.0121;2008256
-80;BenchmarkingFramework.RandomArrayGenerator;HashChaining;300;0.196;0.0224;0.0121;0.0438;2008256
-81;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0723;0.0686;0.0434;0.0662;16384
-82;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0793;0.069;0.0438;0.0658;16384
-83;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0751;0.0681;0.0434;0.0634;16384
-84;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0779;0.0686;0.0434;0.0662;16384
-85;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0765;0.0686;0.0438;0.0653;16384
-86;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0765;0.0686;0.0438;0.0653;16384
-87;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.083;0.0732;0.0462;0.07;16384
-88;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.076;0.0662;0.0434;0.0658;16384
-89;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.0774;0.0686;0.0434;0.0653;16384
-90;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;300;0.077;0.0704;0.0452;0.0658;16384
-91;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2156;0.2212;0.0868;0.1082;80024
-92;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2151;0.2403;0.0933;0.1932;80024
-93;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.1936;0.2216;0.0872;0.1092;80024
-94;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.209;0.2529;0.0994;0.1246;80024
-95;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2072;0.2361;0.097;0.1152;80024
-96;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2188;0.216;0.0849;0.1068;80024
-97;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2179;0.2212;0.0868;0.1087;80024
-98;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.1946;0.2216;0.0868;0.1082;80024
-99;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2282;0.2366;0.0933;0.1162;80024
-100;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.216;0.2212;0.0872;0.1082;80024
-101;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.5913;0.0616;0.0378;0.048;2024640
-102;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.6618;0.0746;0.0415;0.0471;2024640
-103;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.693;0.077;0.0448;0.0597;2024640
-104;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.6156;0.0751;0.0424;0.055;2024640
-105;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.5577;0.0695;0.0438;0.0588;2024640
-106;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.6258;0.0746;0.042;0.0466;2024640
-107;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.5619;0.0784;0.0462;0.0616;2024640
-108;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.6165;0.0695;0.1022;0.0466;2024640
-109;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.6244;0.063;0.0392;0.0448;2024640
-110;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.7028;0.0742;0.0415;0.0508;2024640
-111;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2562;0.2552;0.1666;0.2366;32768
-112;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2459;0.5073;0.2202;0.2296;32768
-113;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2688;0.2394;0.1624;0.2506;32768
-114;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2473;0.2665;0.2459;0.237;32768
-115;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.238;0.238;0.1624;0.2296;32768
-116;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2571;0.2861;0.3075;0.2375;32768
-117;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2562;0.2543;0.1675;0.2384;32768
-118;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2823;0.2697;0.1675;0.2641;32768
-119;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2609;0.7957;0.167;0.2665;32768
-120;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2655;0.3019;0.1824;0.2398;32768
-121;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.6361;0.2665;0.0956;0.1199;80024
-122;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.8261;0.2926;0.0961;0.1451;80024
-123;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.637;0.2749;0.1017;0.125;80024
-124;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.7915;0.2501;0.1134;0.1129;80024
-125;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.6086;0.5736;0.1017;0.1166;80024
-126;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.7187;0.2506;0.0919;0.1129;80024
-127;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.6151;0.2646;0.0952;0.1157;80024
-128;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.6272;0.3313;0.0961;0.1166;80024
-129;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.6156;0.4139;0.1302;0.1176;80024
-130;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;3000;0.6991;0.4237;0.0975;0.1185;80024
-131;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;1.6298;0.0704;0.0392;0.0448;2065600
-132;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.9567;0.0681;0.0392;0.0415;2065600
-133;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.9395;0.063;0.1026;0.0424;2065600
-134;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;1.1304;0.0746;0.0429;0.0592;2065600
-135;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.9115;0.0821;0.0415;0.041;2065600
-136;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.8765;0.0639;0.0392;0.0434;2065600
-137;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.9609;0.069;0.0392;0.0466;2065600
-138;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;1.0702;0.0793;0.0448;0.0756;2065600
-139;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.8625;0.0634;0.0387;0.042;2065600
-140;BenchmarkingFramework.RandomArrayGenerator;HashChaining;3000;0.9087;0.0723;0.042;0.049;2065600
-141;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.8359;0.2847;0.2048;0.2786;98304
-142;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.9605;0.2861;0.2048;0.28;98304
-143;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.8209;0.3043;0.217;0.3117;98304
-144;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.8298;0.2865;0.1978;0.2702;98304
-145;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.8709;0.2851;0.2044;0.2791;98304
-146;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;1.0543;0.3089;0.2067;0.3047;98304
-147;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.9161;0.3043;0.2468;0.2991;98304
-148;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.8102;0.4046;0.3001;0.2735;98304
-149;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.8111;0.287;0.2352;0.2809;98304
-150;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;3000;0.834;0.2949;0.2048;0.2805;98304
-151;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.2416;0.3038;0.104;0.1372;160032
-152;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.3789;0.3141;0.1078;0.1311;160032
-153;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.3835;0.3705;0.1115;0.1512;160032
-154;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.195;0.3365;0.1143;0.2226;160032
-155;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.1688;0.336;0.1148;0.147;160032
-156;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.4269;0.3057;0.1148;0.1274;160032
-157;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.3443;0.3953;0.1236;0.1498;160032
-158;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.1945;0.3523;0.1148;0.1311;160032
-159;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.1553;0.3215;0.1078;0.1274;160032
-160;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.4685;0.3164;0.1045;0.1409;160032
-161;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.8123;0.1036;0.0382;0.0452;2204864
-162;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.7068;0.0634;0.0382;0.0452;2204864
-163;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.7875;0.0648;0.0401;0.0541;2204864
-164;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.809;0.0723;0.0452;0.0854;2204864
-165;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.8146;0.0653;0.0406;0.0546;2204864
-166;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.7754;0.0662;0.0406;0.055;2204864
-167;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.7917;0.0634;0.0382;0.0457;2204864
-168;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.8813;0.0704;0.042;0.0667;2204864
-169;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.7254;0.0704;0.0429;0.0709;2204864
-170;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.8804;0.07;0.049;0.0532;2204864
-171;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.156;0.3402;0.238;0.3197;322524
-172;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.5116;0.3136;0.2431;0.364;327680
-173;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.2218;0.3122;0.2417;0.3187;327680
-174;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.5205;0.3299;0.2506;0.3654;327680
-175;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.2675;0.3271;0.3285;0.3304;327680
-176;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.296;0.3173;0.2548;0.3556;327680
-177;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.2082;0.4032;0.2721;0.6095;327680
-178;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.3805;0.5764;0.2786;0.3757;327680
-179;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.3921;0.371;0.259;0.3603;327680
-180;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;4.165;0.3481;0.2688;0.3827;327680
-181;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;33.539;0.4349;0.1302;0.3047;1280032
-182;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;31.0084;0.518;0.1502;0.153;1280032
-183;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;31.6679;0.3883;0.1176;0.1782;1280032
-184;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;29.8966;0.5885;0.1834;0.2235;1280032
-185;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;28.0974;0.3761;0.1171;0.1474;1280032
-186;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;29.0458;0.3715;0.1138;0.168;1280032
-187;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;31.4042;0.3869;0.1138;0.1437;1280032
-188;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;27.7572;0.3645;0.1143;0.1418;1280032
-189;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;26.9171;0.4181;0.1292;0.1941;1280032
-190;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;30.9183;0.4461;0.1386;0.1792;1280032
-191;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;11.5683;0.0714;0.041;0.1003;4001024
-192;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;11.5057;0.0653;0.041;0.0816;4007104
-193;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;11.2682;0.0718;0.0443;0.1036;4007104
-194;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;12.3701;0.0728;0.0504;0.1274;4007104
-195;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;9.8241;0.0653;0.0401;0.07;4007104
-196;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;13.9266;0.0714;0.0443;0.118;4007104
-197;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;13.0525;0.0695;0.0438;0.1031;4007104
-198;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;12.3519;0.0658;0.0406;0.1404;4007104
-199;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;10.8588;0.0863;0.0541;0.1082;4007104
-200;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;10.9018;0.0648;0.0406;0.0807;4007104
-201;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;52.2856;0.6888;0.4135;0.5376;3205152
-202;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;44.1309;0.434;0.6165;0.4629;3203072
-203;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;46.0113;0.497;0.3948;0.8611;3203072
-204;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;50.9316;0.4125;0.4116;0.4839;3203072
-205;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;46.7077;0.4867;0.4219;0.5964;3203072
-206;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;45.0265;0.4041;0.3192;0.427;3203072
-207;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;53.864;0.4802;0.3575;0.735;3203072
-208;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;53.2199;0.561;0.4681;0.6179;3203072
-209;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;49.3008;0.6263;0.4965;0.673;3203072
-210;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;47.061;0.4839;0.364;0.5236;3203072
-211;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0014;0.0014;80024
-212;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0009;0.0014;80024
-213;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0098;0.0028;0.0009;0.0014;80024
-214;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0336;0.0023;0.0009;0.0014;80024
-215;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0294;0.0023;0.0009;0.0014;80024
-216;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0009;0.0009;80024
-217;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0345;0.0023;0.0009;0.0014;80024
-218;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0284;0.0023;0.0014;0.0014;80024
-219;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0009;0.0014;80024
-220;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0294;0.0028;0.0009;0.0014;80024
-221;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0308;0.0004;0.0009;0.0004;2008256
-222;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.028;0.0004;0.0004;0.0004;2008256
-223;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0284;0.0004;0.0009;0.0004;2008256
-224;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0289;0.0004;0.0004;0.0009;2008256
-225;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0312;0.0004;0.0009;0.0004;2008256
-226;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0256;0.0004;0.0009;0.0009;2008256
-227;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0303;0.0004;0.0004;0.0009;2008256
-228;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0648;0.0009;0.0004;0.0009;2008256
-229;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0354;0.0009;0.0009;0.0004;2008256
-230;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0368;0.0009;0.0004;0.0009;2008256
-231;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0014;0.0023;8192
-232;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.007;0.0014;0.0014;0.0023;8192
-233;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0042;0.0018;0.0009;0.0018;8192
-234;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0112;0.0014;0.0009;0.0023;8192
-235;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0037;0.0014;0.0009;0.0023;8192
-236;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0009;0.0023;8192
-237;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0074;0.0014;0.0009;0.0023;8192
-238;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
-239;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0014;0.0023;8192
-240;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0009;0.0028;8192
-241;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.048;0.0214;0.0084;0.0112;80024
-242;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0364;0.021;0.0084;0.0107;80024
-243;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.027;0.021;0.0084;0.0107;80024
-244;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0294;0.0233;0.0088;0.0116;80024
-245;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0261;0.021;0.0084;0.0107;80024
-246;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0536;0.0219;0.0088;0.0112;80024
-247;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0476;0.021;0.0084;0.0107;80024
-248;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0289;0.0228;0.0088;0.0112;80024
-249;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.055;0.0219;0.0084;0.0112;80024
-250;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0476;0.021;0.0084;0.0112;80024
-251;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.1138;0.006;0.0042;0.0037;2008256
-252;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.1059;0.006;0.0037;0.0046;2008256
-253;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.1157;0.0065;0.0042;0.0042;2008256
-254;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0933;0.0056;0.0037;0.0037;2008256
-255;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.098;0.007;0.0037;0.0046;2008256
-256;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.105;0.006;0.0037;0.0037;2008256
-257;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.1087;0.006;0.0037;0.0037;2008256
-258;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.1008;0.006;0.0042;0.0042;2008256
-259;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0914;0.0065;0.0037;0.0042;2008256
-260;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.1068;0.006;0.0037;0.0042;2008256
-261;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0238;0.0177;0.0121;0.0158;8192
-262;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0233;0.0172;0.0112;0.0144;8192
-263;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0247;0.0168;0.0112;0.0144;8192
-264;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0247;0.0168;0.0116;0.0144;8192
-265;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0242;0.0168;0.0116;0.0144;8192
-266;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0233;0.0172;0.0112;0.014;8192
-267;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0196;0.0163;0.0116;0.0144;8192
-268;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0261;0.0177;0.0121;0.0154;8192
-269;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0252;0.0168;0.0154;0.0144;8192
-270;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0242;0.0172;0.0112;0.0144;8192
-271;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.084;0.0616;0.0242;0.0312;80024
-272;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0812;0.0676;0.0266;0.0345;80024
-273;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.062;0.062;0.0242;0.0308;80024
-274;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.069;0.0662;0.0256;0.0336;80024
-275;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0648;0.0653;0.0256;0.0317;80024
-276;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0928;0.0676;0.027;0.034;80024
-277;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0858;0.0639;0.0252;0.0322;80024
-278;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0662;0.0653;0.0256;0.0326;80024
-279;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0994;0.0723;0.0289;0.0364;80024
-280;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;300;0.0835;0.0616;0.0247;0.0308;80024
-281;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.2282;0.0182;0.0107;0.0112;2008256
-282;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.2314;0.0228;0.0121;0.0126;2008256
-283;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.2114;0.0214;0.0116;0.0116;2008256
-284;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.1983;0.0214;0.0116;0.0116;2008256
-285;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.1992;0.0224;0.09;0.013;2008256
-286;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.1988;0.021;0.0116;0.0112;2008256
-287;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.1988;0.021;0.0233;0.0112;2008256
-288;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.2058;0.0224;0.0126;0.014;2008256
-289;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.2095;0.0224;0.0121;0.0126;2008256
-290;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;300;0.1899;0.0191;0.0116;0.0112;2008256
-291;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.056;0.0532;0.0382;0.042;16384
-292;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0644;0.0574;0.0382;0.042;16384
-293;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0658;0.0588;0.0406;0.0448;16384
-294;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0975;0.0555;0.0378;0.041;16384
-295;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0662;0.0588;0.041;0.0448;16384
-296;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0625;0.0564;0.0382;0.0415;16384
-297;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0611;0.0555;0.0387;0.0415;16384
-298;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0625;0.0546;0.0382;0.042;16384
-299;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.0681;0.0597;0.0406;0.0452;16384
-300;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;300;0.062;0.056;0.0382;0.042;16384
-301;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2109;0.2146;0.0844;0.1045;80024
-302;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2072;0.2501;0.0928;0.1162;80024
-303;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.1932;0.2216;0.0868;0.1082;80024
-304;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2618;0.2534;0.0994;0.1316;80024
-305;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.1946;0.2221;0.0868;0.1096;80024
-306;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2179;0.2156;0.0849;0.1073;80024
-307;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2151;0.2151;0.1885;0.1068;80024
-308;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.1871;0.2146;0.0844;0.1054;80024
-309;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.3038;0.2212;0.0868;0.1185;80024
-310;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.217;0.2609;0.0872;0.2034;80024
-311;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.5512;0.0756;0.0462;0.0644;2024640
-312;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.5105;0.07;0.0401;0.0438;2024640
-313;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.4951;0.0695;0.0392;0.0429;2024640
-314;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.5516;0.1386;0.0751;0.0508;2024640
-315;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.5082;0.0634;0.0387;0.041;2024640
-316;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.4811;0.0704;0.0392;0.0406;2024640
-317;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.4671;0.0695;0.0396;0.042;2024640
-318;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.4695;0.0676;0.0378;0.0392;2024640
-319;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.4676;0.0634;0.0387;0.0415;2024640
-320;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.4835;0.0681;0.0378;0.0401;2024640
-321;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.2123;0.2118;0.1488;0.1549;32768
-322;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.189;0.1852;0.1372;0.1395;32768
-323;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1894;0.1899;0.1409;0.1442;32768
-324;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1946;0.1871;0.1358;0.14;32768
-325;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.181;0.1843;0.1358;0.14;32768
-326;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1955;0.1913;0.1362;0.1404;32768
-327;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.209;0.2137;0.1498;0.1544;32768
-328;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.2156;0.196;0.1404;0.1628;32768
-329;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.2207;0.1969;0.1409;0.1451;32768
-330;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.3682;0.336;0.2067;0.238;32768
-331;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.7738;0.2571;0.0938;0.1241;80024
-332;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.7915;0.2571;0.0933;0.1162;80024
-333;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.6478;0.2735;0.1068;0.1232;80024
-334;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.6342;0.2567;0.0947;0.1148;80024
-335;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.6758;0.2567;0.0933;0.1264;80024
-336;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.6636;0.2767;0.1022;0.1236;80024
-337;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.5913;0.2674;0.1017;0.1614;80024
-338;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.6226;0.2567;0.0938;0.1162;80024
-339;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;1.08;0.2567;0.0933;0.118;80024
-340;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;3000;0.6706;0.2744;0.1003;0.1264;80024
-341;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.8975;0.0793;0.0438;0.063;2065600
-342;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.9077;0.0732;0.042;0.0457;2065600
-343;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.8102;0.0714;0.0448;0.0644;2065600
-344;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.8629;0.0756;0.0429;0.0494;2065600
-345;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.8802;0.0872;0.0541;0.0854;2065600
-346;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.7901;0.0718;0.0392;0.0401;2065600
-347;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;1.1341;0.0812;0.0415;0.1269;2065600
-348;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.8704;0.0686;0.0387;0.0415;2065600
-349;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.8265;0.0639;0.091;0.0452;2065600
-350;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;3000;0.9264;0.0835;0.048;0.0723;2065600
-351;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6408;0.2398;0.181;0.224;98304
-352;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6249;0.2445;0.182;0.2314;98304
-353;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.953;0.2627;0.1936;0.3117;98304
-354;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6389;0.2408;0.1787;0.2188;98304
-355;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6207;0.2576;0.1918;0.2478;98304
-356;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.7458;0.2725;0.1824;0.2422;98304
-357;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.609;0.2403;0.181;0.2249;98304
-358;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6884;0.2651;0.2557;0.245;98304
-359;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6688;0.2319;0.2907;0.2156;98304
-360;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;3000;0.6459;0.2552;0.1848;0.2501;98304
-361;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.574;0.3332;0.1148;0.1437;160032
-362;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.0858;0.5232;0.2809;0.126;160032
-363;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.4517;0.3323;0.1143;0.1498;160032
-364;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.2729;0.3262;0.203;0.1264;160032
-365;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.4017;0.3561;0.1078;0.1493;160032
-366;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.4475;0.399;0.1423;0.1708;160032
-367;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.0881;0.4205;0.1176;0.1264;160032
-368;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.2262;0.3024;0.104;0.1264;160032
-369;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.3004;0.3122;0.1073;0.1348;160032
-370;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.1735;0.5246;0.1162;0.1512;160032
-371;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.795;0.0639;0.0424;0.0578;2204864
-372;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.788;0.076;0.0462;0.1138;2204864
-373;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.6536;0.0611;0.0387;0.0518;2204864
-374;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.8496;0.0676;0.042;0.0583;2204864
-375;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.7268;0.0634;0.0392;0.0457;2204864
-376;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.8006;0.063;0.0392;0.0462;2204864
-377;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;2.152;0.0877;0.0564;0.1068;2204864
-378;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.8827;0.0947;0.0592;0.0975;2204864
-379;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.7222;0.0742;0.0387;0.0569;2204864
-380;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.7936;0.0756;0.0392;0.0513;2204864
-381;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.4573;0.2333;0.2212;0.2482;327680
-382;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.3406;0.2244;0.2114;0.2338;327680
-383;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.271;0.3201;0.2417;0.2758;327680
-384;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2253;0.252;0.2272;0.2805;327680
-385;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.1632;0.2492;0.2118;0.2338;327680
-386;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.1679;0.2249;0.2104;0.2324;327680
-387;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.1987;0.2487;0.2114;0.2445;327680
-388;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.1945;0.3299;0.2426;0.2459;327680
-389;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2183;0.251;0.2263;0.2487;327680
-390;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.3495;0.2651;0.2524;0.3136;327680
-391;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;32.3834;0.392;0.1148;0.1456;1280032
-392;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;31.8084;0.4858;0.1264;0.2272;1280032
-393;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;29.6838;0.4779;0.1395;0.2081;1280032
-394;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;28.664;0.4093;0.1255;0.1596;1280032
-395;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;28.3812;0.4485;0.1302;0.1656;1280032
-396;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;30.3914;0.7626;0.23;0.287;1280032
-397;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;28.1707;0.5087;0.14;0.1936;1280032
-398;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;31.3762;0.4919;0.14;0.1465;1280032
-399;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;30.6607;0.455;0.1297;0.196;1280032
-400;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;30.4913;0.4522;0.1316;0.2328;1280032
-401;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;11.0941;0.0863;0.0532;0.0975;4007104
-402;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;14.7551;0.0858;0.0541;0.1045;4007104
-403;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;12.5675;0.0639;0.0392;0.1138;4007104
-404;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;10.8248;0.0639;0.0392;0.0802;4007104
-405;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;14.0158;0.0732;0.0448;0.1302;4007104
-406;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;10.9853;0.0653;0.0406;0.0774;4007104
-407;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;13.2741;0.0658;0.0401;0.1232;4007104
-408;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;11.8973;0.0858;0.0527;0.1101;4007104
-409;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;12.4084;0.1376;0.048;0.1488;4007104
-410;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;13.0716;0.0653;0.041;0.1194;4007104
-411;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;30.3998;0.5077;0.4746;0.7299;3203072
-412;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;29.4892;0.504;0.7859;1.0333;3203072
-413;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;32.6401;0.6198;1.2148;0.7831;3203072
-414;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;30.9528;0.4475;0.5395;0.5647;3203072
-415;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;31.2264;0.7318;1.0155;0.8144;3203072
-416;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;34.0477;0.575;0.3864;0.5918;3203072
-417;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;29.2484;0.5572;0.4083;1.1565;3203072
-418;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;29.5312;0.7598;0.4895;1.3689;3203072
-419;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;31.7057;0.3649;0.3038;0.6711;3203072
-420;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;28.7644;0.3962;0.3197;0.701;3203072
-421;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0084;0.0023;0.0009;0.0014;80024
-422;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0084;0.0018;0.0009;0.0009;80024
-423;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0074;0.0023;0.0009;0.0014;80024
-424;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.035;0.0018;0.0004;0.0014;80024
-425;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0317;0.0018;0.0009;0.0014;80024
-426;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0102;0.0023;0.0009;0.0014;80024
-427;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.035;0.0018;0.0009;0.0009;80024
-428;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0308;0.0018;0.0009;0.0014;80024
-429;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0009;0.0014;80024
-430;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0364;0.0023;0.0009;0.0014;80024
-431;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.02;0.0004;0.0004;0.0004;2008256
-432;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0191;0.0009;0.0004;0.0009;2008256
-433;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0163;0.0009;0.0004;0.0004;2008256
-434;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0182;0.0009;0.0004;0.0004;2008256
-435;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0177;0.0009;0.0004;0.0004;2008256
-436;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0177;0.0009;0.0004;0.0009;2008256
-437;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0168;0.0004;0.0009;0.0004;2008256
-438;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0163;0.0004;0.0004;0.0009;2008256
-439;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0205;0.0009;0.0004;0.0009;2008256
-440;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0158;0.0004;0.0009;0.0004;2008256
-441;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0023;8192
-442;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
-443;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0009;0.0028;8192
-444;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0098;0.0014;0.0009;0.0018;8192
-445;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0009;0.0023;8192
-446;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0009;0.0023;8192
-447;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0074;0.0014;0.0014;0.0023;8192
-448;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0056;0.0018;0.0014;0.0023;8192
-449;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0018;0.0014;0.0023;8192
-450;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0009;0.0018;8192
-451;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0546;0.021;0.0084;0.0107;80024
-452;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.034;0.0196;0.0074;0.0098;80024
-453;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.027;0.021;0.0079;0.0102;80024
-454;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0252;0.0196;0.0074;0.0093;80024
-455;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0242;0.0196;0.0074;0.0098;80024
-456;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0518;0.0196;0.0074;0.0098;80024
-457;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.056;0.0191;0.0074;0.0098;80024
-458;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0242;0.0196;0.0074;0.0093;80024
-459;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0536;0.0205;0.0079;0.0107;80024
-460;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0476;0.0196;0.0074;0.0098;80024
-461;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0247;0.0065;0.0037;0.0037;2008256
-462;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0228;0.006;0.0037;0.0037;2008256
-463;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0298;0.006;0.0032;0.0037;2008256
-464;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0242;0.006;0.0032;0.0037;2008256
-465;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0247;0.006;0.0032;0.0032;2008256
-466;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0555;0.006;0.0037;0.0037;2008256
-467;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0336;0.0074;0.0037;0.0354;2008256
-468;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0261;0.0056;0.0032;0.0037;2008256
-469;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0317;0.006;0.0037;0.0032;2008256
-470;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0238;0.006;0.0032;0.0032;2008256
-471;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0256;0.0168;0.0116;0.0144;8192
-472;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0336;0.0182;0.0121;0.0172;8192
-473;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0252;0.0168;0.0116;0.0238;8192
-474;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0238;0.0172;0.0116;0.0144;8192
-475;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0322;0.0168;0.0121;0.0144;8192
-476;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0252;0.0168;0.0112;0.014;8192
-477;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0205;0.0177;0.0116;0.0158;8192
-478;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0256;0.0168;0.0112;0.0144;8192
-479;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0256;0.0168;0.0116;0.0144;8192
-480;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.027;0.0177;0.0261;0.0154;8192
-481;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0905;0.0639;0.0247;0.0312;80024
-482;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0742;0.0597;0.0228;0.0289;80024
-483;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0602;0.0597;0.0228;0.0294;80024
-484;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0704;0.0648;0.0247;0.0322;80024
-485;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0611;0.0597;0.0228;0.0294;80024
-486;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0863;0.0597;0.0228;0.0294;80024
-487;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.083;0.1311;0.0364;0.2445;80024
-488;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0611;0.0597;0.0224;0.0294;80024
-489;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.0891;0.0606;0.0233;0.0308;80024
-490;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;300;0.083;0.0597;0.0228;0.0294;80024
-491;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0513;0.02;0.0107;0.0102;2008256
-492;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0401;0.0219;0.0107;0.0102;2008256
-493;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0364;0.02;0.0098;0.0093;2008256
-494;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0359;0.02;0.0098;0.0098;2008256
-495;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0438;0.0214;0.0102;0.0102;2008256
-496;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0415;0.021;0.0102;0.0098;2008256
-497;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0653;0.0233;0.0107;0.0102;2008256
-498;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0368;0.0205;0.0098;0.0098;2008256
-499;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.035;0.0205;0.0098;0.0098;2008256
-500;BenchmarkingFramework.CountingArrayGenerator;HashChaining;300;0.0312;0.0182;0.0098;0.0098;2008256
-501;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0602;0.0583;0.0396;0.0471;16384
-502;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0676;0.0606;0.042;0.0448;16384
-503;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.063;0.0569;0.0387;0.042;16384
-504;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.063;0.0564;0.0382;0.042;16384
-505;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0765;0.0578;0.0392;0.0424;16384
-506;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0732;0.0625;0.042;0.0462;16384
-507;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0606;0.0564;0.0378;0.042;16384
-508;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0583;0.0518;0.0485;0.0406;16384
-509;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0681;0.0602;0.048;0.0457;16384
-510;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;300;0.0616;0.0564;0.0387;0.0415;16384
-511;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.5731;0.2585;0.0924;0.2221;80024
-512;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2025;0.2903;0.0872;0.1078;80024
-513;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.1974;0.3019;0.0919;0.1073;80024
-514;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.1941;0.2272;0.0854;0.1078;80024
-515;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.1964;0.2417;0.0863;0.1078;80024
-516;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2394;0.2268;0.0858;0.1078;80024
-517;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2408;0.2473;0.0919;0.1171;80024
-518;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2272;0.2478;0.0928;0.1236;80024
-519;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2212;0.2272;0.0854;0.1222;80024
-520;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2268;0.2356;0.084;0.1101;80024
-521;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0765;0.0728;0.0658;0.0317;2024640
-522;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0868;0.0667;0.0326;0.0312;2024640
-523;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0905;0.0714;0.035;0.034;2024640
-524;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0919;0.0718;0.035;0.0336;2024640
-525;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.083;0.0602;0.0326;0.0317;2024640
-526;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0858;0.0672;0.0326;0.0317;2024640
-527;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0854;0.0672;0.0326;0.0312;2024640
-528;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0849;0.0662;0.0326;0.0317;2024640
-529;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0774;0.0718;0.0326;0.0322;2024640
-530;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0924;0.0718;0.0345;0.0336;2024640
-531;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2188;0.2137;0.1484;0.1535;32768
-532;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1964;0.188;0.1404;0.1442;32768
-533;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1997;0.188;0.1404;0.1446;32768
-534;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1862;0.1899;0.1423;0.1442;32768
-535;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1852;0.1857;0.1605;0.1409;32768
-536;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2142;0.21;0.1409;0.154;32768
-537;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1964;0.1988;0.1395;0.1442;32768
-538;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1894;0.2319;0.1423;0.1456;32768
-539;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.202;0.2104;0.1404;0.147;32768
-540;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2114;0.1992;0.1446;0.1451;32768
-541;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.749;0.3603;0.1269;0.1488;80024
-542;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.8153;0.3803;0.132;0.1549;80024
-543;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.7953;0.3598;0.1236;0.2062;80024
-544;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.7514;0.4858;0.133;0.3355;80024
-545;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.7574;0.3719;0.1199;0.1647;80024
-546;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.8643;0.3817;0.139;0.1586;80024
-547;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.8018;0.3467;0.1204;0.1418;80024
-548;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.8125;0.3463;0.1204;0.1404;80024
-549;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;1.0235;0.3808;0.1372;0.1656;80024
-550;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;3000;0.7145;0.3467;0.1204;0.1409;80024
-551;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.2104;0.0644;0.0312;0.0303;2065600
-552;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.2179;0.0667;0.0326;0.0317;2065600
-553;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.1908;0.0597;0.0322;0.0312;2065600
-554;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.2286;0.0709;0.0424;0.0336;2065600
-555;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.216;0.0653;0.0326;0.0322;2065600
-556;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.2249;0.0644;0.0359;0.0401;2065600
-557;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.2235;0.0667;0.0326;0.0312;2065600
-558;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.2156;0.0658;0.0326;0.0312;2065600
-559;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.1997;0.0588;0.0312;0.0303;2065600
-560;BenchmarkingFramework.CountingArrayGenerator;HashChaining;3000;0.23;0.0714;0.0345;0.0345;2065600
-561;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6352;0.3995;0.1978;0.2767;98304
-562;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6076;0.2454;0.1829;0.2338;98304
-563;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6473;0.2599;0.181;0.2795;98304
-564;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6347;0.2669;0.1834;0.223;98304
-565;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6067;0.2459;0.1754;0.223;98304
-566;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6613;0.2627;0.1941;0.2394;98304
-567;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6067;0.3887;0.2235;0.224;98304
-568;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6655;0.2478;0.1834;0.2384;98304
-569;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.5927;0.2772;0.1932;0.2272;98304
-570;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;3000;0.6342;0.4265;0.1899;0.2258;98304
-571;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.4395;0.4872;0.1078;0.1792;160032
-572;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.2206;0.4919;0.112;0.1348;160032
-573;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.1912;0.6464;0.1488;0.1204;160032
-574;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.1707;0.2982;0.1003;0.1241;160032
-575;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.1842;0.2889;0.1386;0.1218;160032
-576;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.208;0.2973;0.1003;0.1255;160032
-577;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.4162;0.2982;0.1003;0.126;160032
-578;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.3257;0.3001;0.0998;0.1246;160032
-579;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.4167;0.3099;0.1008;0.1246;160032
-580;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;2.4055;0.3197;0.1068;0.1344;160032
-581;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6398;0.0602;0.0326;0.0326;2204864
-582;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6048;0.0597;0.0326;0.0326;2204864
-583;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.8802;0.1208;0.0438;0.0522;2204864
-584;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6478;0.0704;0.0359;0.0452;2204864
-585;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6086;0.0602;0.0326;0.0331;2204864
-586;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.8545;0.0602;0.0322;0.0345;2204864
-587;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6445;0.0602;0.0326;0.041;2204864
-588;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6034;0.0597;0.0326;0.0322;2204864
-589;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6865;0.0616;0.0359;0.0457;2204864
-590;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.616;0.0606;0.0354;0.0574;2204864
-591;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.3905;0.3579;0.301;0.2655;327680
-592;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.4036;0.2954;0.2272;0.2529;327680
-593;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.5945;0.244;0.217;0.4144;327680
-594;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.292;0.2361;0.2249;0.2543;327680
-595;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.5492;0.3855;0.2431;0.2856;327680
-596;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.5782;0.2347;0.2156;0.2665;327680
-597;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.3457;0.2333;0.2198;0.245;327680
-598;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.713;0.2613;0.245;0.2968;327680
-599;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.3061;0.2893;0.2361;1.4071;327680
-600;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.5231;0.2538;0.216;0.2758;327680
-601;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;39.3945;0.9133;0.1852;0.3253;1280032
-602;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;42.4768;0.5586;0.1647;0.2039;1280032
-603;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;41.3623;0.574;0.1563;0.1988;1280032
-604;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;38.1152;0.6515;0.1829;0.2011;1280032
-605;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;40.8769;0.6632;0.1596;0.2165;1280032
-606;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;39.9742;1.0636;0.1703;0.2454;1280032
-607;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;40.2916;0.7168;0.1792;0.2697;1280032
-608;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;41.6983;0.7164;0.216;0.188;1280032
-609;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;38.2646;0.5605;0.2184;0.1871;1280032
-610;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;42.8031;0.7537;0.2039;0.259;1280032
-611;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.4604;0.0648;0.0359;0.1218;4007104
-612;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.6387;0.0592;0.0326;0.098;4007104
-613;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;7.0783;0.062;0.0373;0.1036;4007104
-614;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.69;0.0616;0.034;0.0816;4007104
-615;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.9411;0.0583;0.0326;0.0863;4007104
-616;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.5995;0.0588;0.0322;0.1036;4007104
-617;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.8655;0.062;0.0378;0.1507;4007104
-618;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.5733;0.0672;0.0378;0.146;4007104
-619;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.6914;0.0611;0.0336;0.0779;4007104
-620;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;7.5539;0.0835;0.034;0.1955;4007104
-621;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;32.2261;0.3383;0.3108;0.6711;3203072
-622;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;30.8698;0.3929;0.8321;0.5866;3203072
-623;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.7702;0.3481;0.4359;0.7906;3203072
-624;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;33.7205;0.4415;0.3971;0.6982;3203072
-625;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;28.9758;0.5586;0.4601;0.876;3203072
-626;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;26.4396;0.3187;0.2963;0.512;3203072
-627;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;26.56;0.3332;0.4629;0.5451;3203072
-628;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;29.3314;0.3206;0.294;0.4732;3203072
-629;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;30.018;0.6958;0.5824;0.7644;3203072
-630;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;34.044;0.4382;0.4032;0.7168;3203072
-631;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0373;0.0037;0.0009;0.0023;80024
-632;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0014;0.0014;80024
-633;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0107;0.0023;0.0009;0.0014;80024
-634;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0345;0.0023;0.0009;0.0014;80024
-635;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0308;0.0023;0.0014;0.0018;80024
-636;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0009;0.0014;80024
-637;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0331;0.0023;0.0009;0.0014;80024
-638;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0322;0.0028;0.0009;0.0018;80024
-639;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0098;0.0023;0.0009;0.0018;80024
-640;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0373;0.0023;0.0009;0.0018;80024
-641;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0294;0.0009;0.0004;0.0004;2008256
-642;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0284;0.0004;0.0004;0.0009;2008256
-643;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0256;0.0009;0.0004;0.0004;2008256
-644;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0284;0.0004;0.0009;0.0004;2008256
-645;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0261;0.0009;0.0004;0.0009;2008256
-646;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0266;0.0004;0.0004;0.0009;2008256
-647;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0261;0.0004;0.0009;0.0004;2008256
-648;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0261;0.0009;0.0004;0.0009;2008256
-649;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0326;0.0009;0.0004;0.0009;2008256
-650;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0266;0.0009;0.0004;0.0009;2008256
-651;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0028;8192
-652;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0028;8192
-653;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0028;8192
-654;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0098;0.0014;0.0009;0.0023;8192
-655;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0014;0.0028;8192
-656;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0051;0.0014;0.0014;0.0023;8192
-657;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0079;0.0014;0.0014;0.0023;8192
-658;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0028;8192
-659;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0023;8192
-660;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0014;0.0028;8192
-661;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0513;0.0214;0.0084;0.0107;80024
-662;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0336;0.02;0.0084;0.0102;80024
-663;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0266;0.021;0.0088;0.0107;80024
-664;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0275;0.0214;0.0084;0.0107;80024
-665;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0261;0.021;0.0084;0.0107;80024
-666;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.055;0.0224;0.0093;0.0112;80024
-667;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.048;0.0214;0.0084;0.0112;80024
-668;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.027;0.0214;0.0088;0.0107;80024
-669;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0504;0.021;0.0088;0.0107;80024
-670;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0499;0.0228;0.0088;0.0116;80024
-671;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0998;0.006;0.0037;0.0042;2008256
-672;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1082;0.0056;0.0037;0.0037;2008256
-673;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1106;0.006;0.0037;0.0037;2008256
-674;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1003;0.006;0.0037;0.0046;2008256
-675;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1017;0.006;0.0037;0.0042;2008256
-676;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1031;0.006;0.0037;0.0042;2008256
-677;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0984;0.006;0.0037;0.0037;2008256
-678;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0994;0.006;0.0037;0.0037;2008256
-679;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1008;0.007;0.0037;0.0042;2008256
-680;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.1838;0.0074;0.0042;0.0079;2008256
-681;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0275;0.0196;0.0135;0.0214;8192
-682;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0294;0.0196;0.013;0.021;8192
-683;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0303;0.0196;0.013;0.0214;8192
-684;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0284;0.0191;0.0126;0.021;8192
-685;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.028;0.0196;0.013;0.021;8192
-686;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0284;0.0191;0.0126;0.0214;8192
-687;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0242;0.0196;0.013;0.0214;8192
-688;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0326;0.021;0.014;0.0228;8192
-689;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0308;0.021;0.014;0.0224;8192
-690;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.027;0.0196;0.013;0.0214;8192
-691;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.098;0.0695;0.0284;0.0359;80024
-692;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.0802;0.0634;0.0256;0.0322;80024
-693;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.0639;0.063;0.056;0.0322;80024
-694;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.069;0.069;0.0266;0.0345;80024
-695;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.0765;0.0774;0.0392;0.0326;80024
-696;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.0854;0.0634;0.0256;0.0322;80024
-697;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.0942;0.0709;0.0326;0.0396;80024
-698;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.098;0.0676;0.027;0.0345;80024
-699;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.0868;0.063;0.0256;0.0322;80024
-700;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;300;0.083;0.063;0.0256;0.0322;80024
-701;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.2132;0.0186;0.0116;0.0116;2008256
-702;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.1964;0.021;0.0112;0.0116;2008256
-703;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.1969;0.0224;0.0121;0.0121;2008256
-704;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.1796;0.0219;0.0116;0.0112;2008256
-705;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.2735;0.0261;0.0112;0.0364;2008256
-706;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.2277;0.034;0.0177;0.021;2008256
-707;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.2282;0.0312;0.0144;0.0168;2008256
-708;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.1978;0.0224;0.0116;0.0121;2008256
-709;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.1834;0.0214;0.0112;0.0112;2008256
-710;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;300;0.1768;0.0186;0.0112;0.0112;2008256
-711;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0742;0.0704;0.0466;0.069;16384
-712;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.076;0.077;0.055;0.0648;16384
-713;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0779;0.07;0.0429;0.0648;16384
-714;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0826;0.0732;0.0457;0.069;16384
-715;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.076;0.0686;0.0434;0.0644;16384
-716;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0863;0.07;0.0429;0.0644;16384
-717;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0863;0.0798;0.0457;0.0737;16384
-718;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.1218;0.0742;0.056;0.1899;16384
-719;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0966;0.0695;0.0434;0.0644;16384
-720;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;300;0.0746;0.0681;0.0429;0.0765;16384
-721;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2146;0.2207;0.0868;0.118;80024
-722;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.1927;0.2207;0.0868;0.1078;80024
-723;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2114;0.2426;0.0919;0.1143;80024
-724;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.1932;0.2212;0.0872;0.1082;80024
-725;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.3211;0.2585;0.0882;0.1638;80024
-726;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2156;0.2226;0.0956;0.1652;80024
-727;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2328;0.2366;0.0942;0.1157;80024
-728;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2109;0.2426;0.0924;0.1148;80024
-729;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2132;0.2492;0.0868;0.1078;80024
-730;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2118;0.2207;0.105;0.1078;80024
-731;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;1.1896;0.0634;0.0387;0.0611;2024640
-732;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.4975;0.0737;0.0415;0.0438;2024640
-733;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.4746;0.0742;0.0429;0.0639;2024640
-734;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.5619;0.1101;0.0536;0.0602;2024640
-735;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.623;0.0998;0.0532;0.0606;2024640
-736;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.4704;0.0695;0.0387;0.041;2024640
-737;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.4634;0.0779;0.0434;0.0616;2024640
-738;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.504;0.07;0.0387;0.0438;2024640
-739;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.5101;0.0732;0.0406;0.0466;2024640
-740;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.4713;0.069;0.0396;0.042;2024640
-741;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2482;0.28;0.2352;0.2263;32768
-742;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.245;0.2398;0.1619;0.2258;32768
-743;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2398;0.6874;2.5604;0.2263;32768
-744;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.244;0.2557;0.1624;0.2384;32768
-745;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2398;0.3267;0.1726;0.2445;32768
-746;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2623;0.2567;0.1624;0.2361;32768
-747;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2646;0.2637;0.1614;0.2557;32768
-748;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2637;0.2912;0.1638;0.2422;32768
-749;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2679;0.2567;0.1624;0.3845;32768
-750;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2473;0.3234;0.1628;0.2258;32768
-751;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.6655;0.287;0.1026;0.1255;80024
-752;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.645;0.2623;0.0956;0.1176;80024
-753;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;1.1262;0.9315;0.175;0.1955;80024
-754;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.6982;0.5969;0.1334;0.1964;80024
-755;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;1.6125;0.8615;0.3491;0.2086;80024
-756;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.9306;0.5358;0.2903;0.1568;80024
-757;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.9362;0.3173;0.1236;0.1493;80024
-758;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.6174;0.2646;0.0966;0.1171;80024
-759;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.6146;0.371;0.1036;0.1796;80024
-760;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;3000;0.7378;0.3999;0.1059;0.1255;80024
-761;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;0.8639;0.069;0.0392;0.042;2065600
-762;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;1.1826;0.0714;0.0396;0.0508;2065600
-763;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;0.8471;0.0634;0.0396;0.0443;2065600
-764;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;1.0954;0.07;0.1512;0.0485;2065600
-765;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;1.5261;0.1045;0.056;0.139;2065600
-766;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;1.1831;0.0774;0.049;0.063;2065600
-767;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;6.6756;0.0704;0.0858;0.0732;2065600
-768;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;2.6356;0.2333;0.1213;0.4256;2065600
-769;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;2.51;0.105;0.0452;0.1143;2065600
-770;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;3000;4.1286;0.7705;0.3897;1.2218;2065600
-771;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;1.9257;0.4657;1.6559;0.3467;98304
-772;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;1.8253;0.2819;0.2044;0.3061;98304
-773;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;0.939;0.3523;0.3085;0.2781;98304
-774;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;0.8065;0.434;0.2632;0.2814;98304
-775;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;1.0422;0.3827;0.2641;0.4499;98304
-776;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;1.4785;0.406;0.259;0.35;98304
-777;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;2.0512;0.2842;0.2515;0.5339;98304
-778;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;1.5061;0.4373;0.3075;0.3906;98304
-779;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;1.2676;0.2823;0.203;0.2814;98304
-780;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;3000;0.7691;0.4326;0.2823;0.3766;98304
-781;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.8395;0.3127;0.2665;0.1316;160032
-782;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;4.025;0.4555;0.1745;0.2286;160032
-783;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.8965;0.385;0.1358;0.1754;160032
-784;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.4811;0.4825;0.1656;0.1362;160032
-785;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;3.0187;0.3164;0.105;0.1381;160032
-786;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.9357;0.5913;0.1334;0.1614;160032
-787;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.8265;0.3145;0.1073;0.1311;160032
-788;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;3.3226;0.3486;0.1078;0.167;160032
-789;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.5105;0.3285;0.1115;0.224;160032
-790;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.2668;0.3472;0.1152;0.1404;160032
-791;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;1.8491;0.0676;0.0415;0.0569;2204864
-792;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;1.7231;0.0793;0.042;0.1437;2204864
-793;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;1.6433;0.0634;0.0392;0.0452;2204864
-794;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;1.6536;0.0634;0.0401;0.0532;2204864
-795;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;2.2104;0.0639;0.0415;0.0742;2204864
-796;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;1.6512;0.063;0.0392;0.0462;2204864
-797;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;2.65;0.0639;0.0392;0.0709;2204864
-798;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;2.7429;0.1764;0.048;0.1423;2204864
-799;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;2.9268;0.1096;0.0401;0.0737;2204864
-800;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;2.1483;0.0676;0.042;0.069;2204864
-801;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;3.1518;0.322;0.2422;0.3197;327680
-802;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.679;0.3948;0.3841;0.3173;327680
-803;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.952;0.3197;0.3113;0.322;327680
-804;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.9809;0.6398;0.7075;0.3206;327680
-805;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.7415;0.3766;0.2613;0.6646;327680
-806;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;3.2465;0.3612;0.2669;0.3621;327680
-807;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.8797;0.3197;0.2529;0.3183;327680
-808;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;3.8743;0.413;0.273;0.3915;327680
-809;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;3.0155;0.3416;0.2809;0.3537;327680
-810;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.6603;0.3495;0.2576;0.6184;327680
-811;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;31.4116;0.4163;0.1185;0.1754;1280032
-812;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;33.3682;0.5647;0.1568;0.231;1280032
-813;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;32.2793;0.4643;0.1348;0.196;1280032
-814;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;31.8732;0.4158;0.1185;0.1479;1280032
-815;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;31.7458;0.4345;0.1358;0.1913;1280032
-816;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;32.1612;0.5488;0.1339;0.1918;1280032
-817;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;32.0207;0.3995;0.1185;0.1666;1280032
-818;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;34.2591;0.3878;0.1456;0.1586;1280032
-819;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;29.8719;0.4774;0.1675;0.2342;1280032
-820;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;31.8168;0.3939;0.1194;0.1614;1280032
-821;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;13.7497;0.0667;0.041;0.098;4007104
-822;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;14.7798;0.0718;0.0438;0.105;4007104
-823;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;11.0525;0.0704;0.0438;0.1054;4007104
-824;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;12.35;0.0653;0.0401;0.0905;4007104
-825;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;12.4746;0.0812;0.0443;0.0765;4007104
-826;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;15.2783;0.0933;0.041;0.4713;4007104
-827;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;12.4448;0.0672;0.041;0.1493;4007104
-828;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;12.0448;0.0662;0.0541;0.1418;4007104
-829;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;11.2429;0.2328;0.0466;0.1666;4007104
-830;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;12.8583;0.0975;0.0616;0.1437;4007104
-831;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;32.4039;0.4424;0.3276;0.5269;3203072
-832;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;31.533;0.4559;0.3556;0.5838;3203072
-833;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;31.4658;0.5404;0.4965;0.5026;3203072
-834;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;31.0817;1.2568;0.7696;1.0113;3203072
-835;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;39.2648;0.5974;0.5754;0.8839;3203072
-836;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;31.0621;0.4172;0.3346;0.6202;3203072
-837;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;37.1585;0.3971;0.3239;0.4947;3203072
-838;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;36.4154;0.6123;0.8975;0.8942;3203072
-839;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;65.1686;1.0482;0.9021;0.8037;3203072
-840;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;37.7927;0.4615;0.4419;0.5199;3203072
+31;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0233;0.027;0.0102;0.0121;8192
+32;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0233;0.027;0.0102;0.0116;8192
+33;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0228;0.0275;0.0098;0.0116;8192
+34;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0233;0.027;0.0098;0.0116;8192
+35;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0233;0.0275;0.0098;0.0121;8192
+36;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0228;0.027;0.0098;0.0121;8192
+37;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0228;0.027;0.0098;0.0116;8192
+38;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0228;0.027;0.0098;0.0121;8192
+39;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0238;0.028;0.0098;0.0121;8192
+40;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100;0.0233;0.027;0.0098;0.0116;8192
+41;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0102;0.0074;0.0056;0.0037;8192
+42;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0168;0.0476;0.0051;0.0046;8192
+43;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0098;0.0074;0.0051;0.0037;8192
+44;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0112;0.007;0.0051;0.0037;8192
+45;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0275;0.0074;0.0051;0.0037;8192
+46;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0102;0.0074;0.0046;0.0037;8192
+47;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0107;0.0074;0.0051;0.0037;8192
+48;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0107;0.0074;0.0051;0.0037;8192
+49;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0107;0.0074;0.0046;0.0037;8192
+50;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100;0.0158;0.0074;0.0051;0.0037;8192
+51;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.028;0.0196;0.013;0.0373;8192
+52;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0294;0.0196;0.0126;0.0359;8192
+53;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0331;0.0196;0.0126;0.0214;8192
+54;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0298;0.0191;0.0126;0.0214;8192
+55;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0289;0.0196;0.0126;0.0214;8192
+56;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.028;0.0191;0.013;0.021;8192
+57;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0854;0.0219;0.013;0.0228;8192
+58;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0294;0.0196;0.013;0.0219;8192
+59;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.041;0.0196;0.013;0.0312;8192
+60;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100;0.0266;0.0191;0.0126;0.0214;8192
+61;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1232;0.1512;0.0527;0.062;8216
+62;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1628;0.1516;0.0522;0.0625;8216
+63;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1134;0.1516;0.0527;0.0625;8216
+64;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1292;0.1614;0.0527;0.0625;8216
+65;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.111;0.181;0.0611;0.062;8216
+66;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1218;0.1516;0.0532;0.0625;8216
+67;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1218;0.1512;0.0522;0.0625;8216
+68;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1129;0.1512;0.0527;0.0625;8216
+69;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.112;0.1661;0.0522;0.0625;8216
+70;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;500;0.1078;0.1516;0.0527;0.0625;8216
+71;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0532;0.0359;0.0233;0.0177;16384
+72;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.041;0.0373;0.0387;0.0177;16384
+73;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0494;0.0392;0.056;0.0177;16384
+74;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0471;0.0396;0.0242;0.0182;16384
+75;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0485;0.0396;0.0242;0.0182;16384
+76;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0476;0.0387;0.0238;0.0182;16384
+77;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0471;0.0392;0.0242;0.0182;16384
+78;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0448;0.0368;0.0242;0.0182;16384
+79;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0406;0.0368;0.0238;0.0182;16384
+80;BenchmarkingFramework.RandomArrayGenerator;HashChaining;500;0.0485;0.0392;0.0247;0.0186;16384
+81;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.1554;0.1208;0.077;0.1129;16384
+82;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.1274;0.1232;0.0779;0.1129;16384
+83;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.126;0.1208;0.076;0.1124;16384
+84;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.1269;0.1507;0.0872;0.1124;16384
+85;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.125;0.202;0.0835;0.1764;16384
+86;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.1241;0.1199;0.0984;0.1124;16384
+87;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.1227;0.1213;0.076;0.1283;16384
+88;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.1246;0.1157;0.0774;0.1129;16384
+89;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.119;0.1152;0.077;0.1134;16384
+90;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;500;0.126;0.1204;0.097;0.1124;16384
+91;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2221;0.3299;0.1082;0.1274;16408
+92;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.223;0.3127;0.1073;0.1563;16408
+93;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.23;0.3691;0.1068;0.139;16408
+94;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.238;0.3271;0.1059;0.1274;16408
+95;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2156;0.3131;0.1078;0.1554;16408
+96;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.244;0.3206;0.1045;0.1264;16408
+97;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2076;0.3169;0.1255;0.1222;16408
+98;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2557;0.3332;0.1064;0.1269;16408
+99;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2221;0.3122;0.125;0.1274;16408
+100;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;1000;0.2216;0.3117;0.1241;0.126;16408
+101;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0868;0.0779;0.0471;0.0354;24576
+102;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0812;0.0732;0.0471;0.035;24576
+103;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0844;0.0756;0.0457;0.0345;24576
+104;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0858;0.0784;0.0471;0.035;24576
+105;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0863;0.0779;0.0476;0.0354;24576
+106;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0765;0.0742;0.0471;0.0354;24576
+107;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.0877;0.0784;0.0476;0.0354;24576
+108;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.1423;0.0788;0.0471;0.0359;24576
+109;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.1269;0.0779;0.0476;0.0354;24576
+110;BenchmarkingFramework.RandomArrayGenerator;HashChaining;1000;0.076;0.0732;0.0681;0.035;24576
+111;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2566;0.2543;0.168;0.2417;32768
+112;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2562;0.2538;0.1857;0.2361;32768
+113;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2529;0.2534;0.168;0.2711;32768
+114;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2595;0.2566;0.168;0.2557;32768
+115;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2566;0.3761;0.168;0.2356;32768
+116;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2459;0.245;0.1848;0.237;32768
+117;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.294;0.4401;0.237;0.2711;32768
+118;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.3033;0.2459;0.1624;0.2282;32768
+119;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2651;0.2445;0.1689;0.237;32768
+120;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;1000;0.2772;0.2613;0.1689;0.2529;32768
+121;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.3189;0.5045;0.1278;0.1516;65560
+122;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.1985;0.4237;0.1437;0.1978;65560
+123;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;2.7196;0.6902;0.1474;0.4779;65560
+124;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.8253;0.3878;0.1703;0.1432;65560
+125;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.6204;0.4475;0.1344;0.1456;65560
+126;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.2414;0.7434;0.1796;0.1423;65560
+127;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.2713;0.4737;0.1978;0.1507;65560
+128;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.2489;0.4807;0.1684;0.1684;65560
+129;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.3334;0.4424;0.1255;0.2702;65560
+130;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;5000;1.2125;0.3999;0.1213;0.1418;65560
+131;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.3971;0.0793;0.0452;0.0471;121336
+132;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.3985;0.0784;0.0452;0.0457;122904
+133;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.5498;0.0751;0.0462;0.048;122904
+134;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.4013;0.0742;0.0438;0.0443;122904
+135;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.3481;0.069;0.0438;0.0443;122904
+136;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.4429;0.0784;0.0457;0.0466;122904
+137;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.3612;0.0714;0.0452;0.0457;122904
+138;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.4405;0.0788;0.0457;0.0466;122904
+139;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.4121;0.0695;0.0527;0.0443;122904
+140;BenchmarkingFramework.RandomArrayGenerator;HashChaining;5000;0.4405;0.077;0.0452;0.0457;122904
+141;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4482;0.4139;0.2468;0.2963;163840
+142;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4757;0.3117;0.2249;0.2954;163840
+143;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4417;0.3159;0.2249;0.2968;163840
+144;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4211;0.3295;0.2258;0.2982;163840
+145;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.5957;0.3029;0.223;0.3117;163840
+146;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.5626;0.3201;0.2244;0.3803;163840
+147;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4076;0.3323;0.2258;0.2977;163840
+148;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4431;0.2982;0.223;0.3108;163840
+149;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.4351;0.2949;0.251;0.2968;163840
+150;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;5000;1.472;0.2861;0.3019;0.308;163840
+151;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.5557;0.4139;0.1255;0.1899;131104
+152;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.4031;0.3803;0.1194;0.14;131104
+153;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.3812;0.4023;0.1157;0.1484;131104
+154;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.5053;0.3864;0.118;0.1526;131104
+155;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.4227;0.4041;0.1376;0.1712;131104
+156;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.37;0.4023;0.1148;0.1484;131104
+157;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.5567;0.3687;0.1152;0.1367;131104
+158;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.6034;0.5194;0.1409;0.1787;131104
+159;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;2.5707;0.3976;0.1437;0.1726;131104
+160;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;10000;3.6078;0.4569;0.1232;0.2389;131104
+161;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;1.5103;0.083;0.048;0.0625;237592
+162;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.8807;0.0793;0.0466;0.0569;237592
+163;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.771;0.0765;0.0466;0.0499;237592
+164;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.7388;0.077;0.0835;0.0499;237592
+165;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.7663;0.0947;0.0471;0.0522;237592
+166;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.7878;0.077;0.0466;0.0499;237592
+167;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.7542;0.0774;0.0466;0.0499;237592
+168;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.9175;0.0765;0.0462;0.0518;237592
+169;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.7985;0.0774;0.0462;0.0499;237592
+170;BenchmarkingFramework.RandomArrayGenerator;HashChaining;10000;0.8895;0.0784;0.0471;0.0532;237592
+171;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.5923;0.3421;0.2786;0.3421;327680
+172;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;4.0717;0.54;0.2777;0.6431;327680
+173;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.5079;0.5428;0.2851;0.5367;327680
+174;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.2376;0.3542;0.2557;0.532;327680
+175;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;9.8381;0.5063;0.2716;0.399;327680
+176;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.8019;0.3995;0.2566;0.448;327680
+177;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.3982;0.3351;0.2679;0.3355;327680
+178;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;4.124;1.1052;0.392;0.9203;327680
+179;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;3.2829;0.4401;0.2637;0.3939;327680
+180;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;10000;18.0866;1.3675;0.6296;0.644;327680
+181;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;15.0892;0.5866;0.1353;0.1619;1048608
+182;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;14.3882;0.3491;0.1101;0.1386;1048608
+183;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;13.7577;0.4177;0.1759;0.3379;1048608
+184;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;13.4347;0.2945;0.1101;0.1292;1048608
+185;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;17.0094;0.2809;0.0984;0.1288;1048608
+186;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;12.5367;0.4662;0.1232;0.1292;1048608
+187;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;12.96;0.2856;0.1017;0.1572;1048608
+188;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;13.5332;0.2735;0.1194;0.1418;1048608
+189;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;14.1595;0.3178;0.1157;0.1647;1048608
+190;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;50000;14.2687;0.2767;0.0975;0.1353;1048608
+191;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;6.8884;0.083;0.0546;0.076;1132668
+192;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.6873;0.0788;0.0536;0.0742;1138720
+193;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.292;0.0779;0.0536;0.07;1138720
+194;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.334;0.0756;0.0522;0.077;1138720
+195;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.306;0.0774;0.0541;0.0709;1138720
+196;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.5585;0.0779;0.0536;0.0709;1138720
+197;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.1566;0.0774;0.0541;0.0695;1138720
+198;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.5678;0.0835;0.0536;0.1969;1138720
+199;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.5169;0.0779;0.0541;0.07;1138720
+200;BenchmarkingFramework.RandomArrayGenerator;HashChaining;50000;4.7125;0.0756;0.0522;0.069;1138720
+201;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;20.5971;0.4041;0.3262;0.4018;1607716
+202;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;24.3906;0.4209;0.3262;0.533;1605632
+203;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;22.9373;0.4769;0.743;0.5796;1605632
+204;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;20.7894;0.4662;0.3113;0.624;1605632
+205;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;25.122;0.3859;0.3187;0.4284;1605632
+206;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;21.9357;0.4037;0.3225;0.4345;1605632
+207;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;22.3977;0.4111;0.3005;0.4475;1605632
+208;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;25.5626;0.4611;0.3229;0.4774;1605632
+209;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;21.0563;0.3887;0.2977;0.4279;1605632
+210;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;50000;21.3891;0.4928;0.4121;0.6146;1605632
+211;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;28.2407;0.2651;0.154;0.1628;2097184
+212;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;26.4106;0.266;0.1297;0.139;2097184
+213;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;24.743;0.2777;0.0952;0.1577;2097184
+214;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;27.4944;0.3211;0.1031;0.231;2097184
+215;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;26.2067;0.2711;0.0989;0.1292;2097184
+216;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;24.7365;0.2632;0.0961;0.1264;2097184
+217;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;31.7645;0.2847;0.1008;0.168;2097184
+218;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;24.6459;0.3197;0.0966;0.1246;2097184
+219;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;27.1131;0.3341;0.0966;0.139;2097184
+220;BenchmarkingFramework.RandomArrayGenerator;Hash Open Addressing;100000;24.9675;0.3304;0.1031;0.1255;2097184
+221;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;9.3107;0.0807;0.0536;0.0756;2263140
+222;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;9.2276;0.0966;0.056;0.0961;2269216
+223;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;9.271;0.1064;0.056;0.0723;2269216
+224;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;8.4911;0.111;0.0746;0.0938;2269216
+225;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;10.1405;0.133;0.055;0.0821;2269216
+226;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;10.0355;0.0844;0.0574;0.1064;2269216
+227;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;11.0212;0.2193;0.076;0.0746;2269216
+228;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;18.2112;0.0844;0.0578;0.1134;2269216
+229;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;14.0377;0.083;0.0569;0.1418;2269216
+230;BenchmarkingFramework.RandomArrayGenerator;HashChaining;100000;12.2926;0.076;0.0541;0.0779;2269216
+231;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;58.0949;0.568;0.8377;1.0001;3205152
+232;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;52.3957;0.4247;0.3957;0.5012;3203072
+233;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;50.2161;0.4583;0.3416;0.5199;3203072
+234;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;52.7653;0.4391;0.3561;0.6944;3203072
+235;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;54.0848;0.5824;0.4107;0.687;3203072
+236;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;45.9077;0.4797;0.3645;0.5792;3203072
+237;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;51.1276;1.9355;0.4569;0.6207;3203072
+238;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;50.3426;0.4923;0.4046;0.6916;3203072
+239;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;48.4056;0.4475;0.3971;0.5129;3203072
+240;BenchmarkingFramework.RandomArrayGenerator;AVL Tree;100000;45.2478;0.4793;0.3211;0.455;3203072
+241;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0065;0.0032;0.0014;0.0018;8192
+242;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0018;8192
+243;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+244;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0009;0.0018;8192
+245;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0009;0.0018;8192
+246;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0056;0.0028;0.0014;0.0014;8192
+247;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0154;0.0032;0.0014;0.0018;8192
+248;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.006;0.0032;0.0014;0.0014;8192
+249;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.0168;0.0037;0.0014;0.0028;8192
+250;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10;0.006;0.0028;0.0009;0.0014;8192
+251;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0004;8192
+252;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0004;8192
+253;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0042;0.0009;0.0004;0.0009;8192
+254;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0037;0.0004;0.0004;0.0009;8192
+255;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0004;8192
+256;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0028;0.0004;0.0004;0.0004;8192
+257;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0042;0.0009;0.0009;0.0004;8192
+258;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0009;8192
+259;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0037;0.0004;0.0009;0.0004;8192
+260;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0004;8192
+261;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
+262;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0051;0.0014;0.0009;0.0023;8192
+263;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0009;0.0023;8192
+264;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0107;0.0014;0.0014;0.0023;8192
+265;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0014;0.0023;8192
+266;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0051;0.0018;0.0009;0.0023;8192
+267;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0093;0.0014;0.0014;0.0023;8192
+268;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0009;0.0023;8192
+269;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
+270;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10;0.0042;0.0018;0.0009;0.0023;8192
+271;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0261;0.0266;0.0093;0.0121;8192
+272;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0228;0.0266;0.0098;0.0116;8192
+273;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.027;0.027;0.0093;0.0121;8192
+274;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0233;0.0275;0.0098;0.0116;8192
+275;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0284;0.027;0.0098;0.0116;8192
+276;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0266;0.0266;0.0098;0.0116;8192
+277;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0242;0.0275;0.0098;0.0121;8192
+278;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.028;0.027;0.0098;0.0116;8192
+279;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0289;0.027;0.0196;0.0121;8192
+280;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100;0.0228;0.027;0.0098;0.0116;8192
+281;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0149;0.0074;0.0056;0.0042;8192
+282;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0107;0.0074;0.0051;0.0037;8192
+283;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.014;0.042;0.0802;0.0042;8192
+284;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0102;0.007;0.0051;0.0042;8192
+285;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0102;0.007;0.0046;0.0037;8192
+286;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0648;0.0098;0.0051;0.0541;8192
+287;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0107;0.0177;0.0046;0.0037;8192
+288;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0107;0.0074;0.0046;0.0042;8192
+289;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0112;0.0074;0.0051;0.0037;8192
+290;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100;0.0102;0.0074;0.0051;0.0042;8192
+291;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.02;0.0163;0.0112;0.014;8192
+292;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0191;0.0172;0.0116;0.0144;8192
+293;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0196;0.0172;0.0116;0.0144;8192
+294;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0191;0.027;0.0107;0.014;8192
+295;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0219;0.0186;0.0116;0.056;8192
+296;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.02;0.0177;0.0116;0.0154;8192
+297;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0527;0.02;0.013;0.028;8192
+298;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0387;0.0219;0.0144;0.0191;8192
+299;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0275;0.0168;0.0112;0.0144;8192
+300;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100;0.0228;0.0168;0.0112;0.014;8192
+301;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1115;0.1507;0.0527;0.063;8216
+302;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1068;0.1619;0.0518;0.0812;8216
+303;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1106;0.1502;0.0527;0.0625;8216
+304;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1082;0.1866;0.0597;0.0625;8216
+305;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1115;0.1512;0.0527;0.062;8216
+306;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1073;0.1619;0.0522;0.0625;8216
+307;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1134;0.1507;0.0518;0.0634;8216
+308;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1138;0.1549;0.0518;0.0616;8216
+309;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1082;0.1502;0.0518;0.062;8216
+310;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;500;0.1078;0.1502;0.0522;0.0625;8216
+311;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.041;0.0373;0.0289;0.0182;16384
+312;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0401;0.0364;0.0233;0.0177;16384
+313;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0415;0.0368;0.0238;0.0177;16384
+314;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0406;0.0368;0.0261;0.0182;16384
+315;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0415;0.0368;0.0233;0.0177;16384
+316;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0401;0.0364;0.0242;0.0177;16384
+317;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0485;0.0387;0.0238;0.0182;16384
+318;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0485;0.0392;0.0242;0.0182;16384
+319;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.049;0.0387;0.0247;0.0191;16384
+320;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;500;0.0532;0.0387;0.0242;0.0182;16384
+321;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.0994;0.0966;0.0667;0.0709;16384
+322;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.0989;0.0924;0.0667;0.0704;16384
+323;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.1036;0.1955;0.0891;0.1978;16384
+324;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.098;0.0961;0.0718;0.0704;16384
+325;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.097;0.0966;0.0667;0.0709;16384
+326;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.0947;0.0933;0.0644;0.0686;16384
+327;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.0966;0.0975;0.0672;0.076;16384
+328;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.0961;0.0938;0.0648;0.0686;16384
+329;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.098;0.097;0.0667;0.0709;16384
+330;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;500;0.0984;0.0966;0.0662;0.0709;16384
+331;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2277;0.4853;0.1068;0.1894;16408
+332;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2142;0.3113;0.1059;0.1255;16408
+333;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2137;0.3374;0.1064;0.126;16408
+334;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2202;0.3285;0.1068;0.126;16408
+335;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2226;0.3388;0.1017;0.126;16408
+336;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2142;0.3197;0.1017;0.1222;16408
+337;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2445;0.3113;0.1064;0.1269;16408
+338;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.3341;0.3276;0.105;0.126;16408
+339;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2823;0.3262;0.1059;0.1255;16408
+340;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;1000;0.2142;0.3108;0.1474;0.1437;16408
+341;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0886;0.0793;0.0476;0.0354;24576
+342;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0863;0.0947;0.0476;0.0508;24576
+343;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0868;0.0784;0.0476;0.0354;24576
+344;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.119;0.0751;0.0564;0.0373;24576
+345;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0877;0.0788;0.0476;0.0359;24576
+346;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0896;0.0802;0.048;0.0359;24576
+347;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0919;0.0835;0.0639;0.0382;24576
+348;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.077;0.0737;0.048;0.0354;24576
+349;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0863;0.0779;0.0476;0.0364;24576
+350;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;1000;0.0882;0.0774;0.0476;0.0354;24576
+351;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.2006;0.2072;0.1423;0.1619;32768
+352;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.188;0.1908;0.1526;0.1442;32768
+353;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.2016;0.1983;0.1404;0.1437;32768
+354;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1964;0.3005;0.2174;0.1442;32768
+355;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1936;0.1904;0.1661;0.1437;32768
+356;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1978;0.1918;0.1549;0.14;32768
+357;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1978;0.1988;0.1395;0.1442;32768
+358;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1997;0.2366;0.1409;0.1586;32768
+359;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.2202;0.2002;0.1409;0.1717;32768
+360;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;1000;0.1969;0.209;0.1768;0.1624;32768
+361;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.1798;0.4023;0.1782;0.2254;65560
+362;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2494;0.4023;0.119;0.1372;65560
+363;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.1864;0.3841;0.1292;0.1372;65560
+364;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2013;0.4256;0.1143;0.1325;65560
+365;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2638;0.3841;0.1288;0.1372;65560
+366;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2004;0.3729;0.1138;0.133;65560
+367;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2251;0.3827;0.118;0.1376;65560
+368;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.254;0.3985;0.1171;0.1376;65560
+369;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2582;0.3999;0.118;0.1376;65560
+370;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;5000;1.2088;0.3845;0.118;0.1376;65560
+371;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.3831;0.0681;0.0434;0.0434;122904
+372;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.3519;0.0793;0.0434;0.0732;122904
+373;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.3939;0.0709;0.0443;0.0457;122904
+374;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.4233;0.076;0.0448;0.0448;122904
+375;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.8461;0.119;0.084;0.0872;122904
+376;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.4111;0.1232;0.0564;0.0457;122904
+377;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.3682;0.0704;0.0448;0.0443;122904
+378;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.3934;0.076;0.0648;0.0443;122904
+379;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.4102;0.0807;0.0518;0.0522;122904
+380;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;5000;0.4116;0.076;0.0443;0.056;122904
+381;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.0772;0.2459;0.21;0.2319;163840
+382;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.2391;0.2655;0.2034;0.2254;163840
+383;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.1276;0.2856;0.1913;0.223;163840
+384;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.1243;0.2903;0.1894;0.2235;163840
+385;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.0837;0.2506;0.195;0.2426;163840
+386;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.0809;0.2468;0.2114;0.2305;163840
+387;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.1892;0.3514;0.2006;0.2548;163840
+388;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.1262;0.4205;0.2637;0.3052;163840
+389;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.0781;0.3822;0.2067;0.245;163840
+390;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;5000;1.4972;0.2543;0.1974;0.2557;163840
+391;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.9693;0.4279;0.1348;0.1362;131104
+392;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;3.5163;0.5834;0.2688;0.4363;131104
+393;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;3.1364;0.567;0.1274;0.1591;131104
+394;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.5049;0.3845;0.1194;0.1404;131104
+395;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.3775;0.3766;0.1255;0.1358;131104
+396;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.3943;0.3883;0.1138;0.1624;131104
+397;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.3266;0.3794;0.1134;0.1764;131104
+398;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.4531;0.3934;0.1185;0.1474;131104
+399;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;2.5716;0.3957;0.119;0.1605;131104
+400;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;10000;4.3923;0.3911;0.1171;0.238;131104
+401;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7542;0.076;0.0462;0.0499;237592
+402;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;1.6204;0.0882;0.0541;0.0611;237592
+403;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7635;0.0723;0.0471;0.0494;237592
+404;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7439;0.0718;0.0462;0.0504;237592
+405;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7444;0.0714;0.0466;0.0518;237592
+406;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7178;0.0714;0.0462;0.0499;237592
+407;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7813;0.0714;0.0457;0.048;237592
+408;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7224;0.0714;0.0466;0.0499;237592
+409;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7696;0.0723;0.069;0.0499;237592
+410;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;10000;0.7392;0.0728;0.0476;0.0499;237592
+411;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2486;0.2324;0.2179;0.2833;327680
+412;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.5184;0.2235;0.2132;0.2651;327680
+413;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2066;0.2221;0.2123;0.2482;327680
+414;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2874;0.2272;0.2137;0.2543;327680
+415;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.307;0.23;0.2202;0.2534;327680
+416;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2692;0.2468;0.2356;0.2767;327680
+417;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2547;0.2286;0.2184;0.2408;327680
+418;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2477;0.2319;0.2188;0.245;327680
+419;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.3126;0.2226;0.224;0.266;327680
+420;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;10000;2.2561;0.2431;0.2249;0.2571;327680
+421;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;12.7472;0.2865;0.0998;0.1442;1048608
+422;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;13.2522;0.2711;0.097;0.1409;1048608
+423;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;14.8489;0.2893;0.1082;0.1913;1048608
+424;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;13.0118;0.2693;0.097;0.1362;1048608
+425;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;14.7681;0.3066;0.1409;0.1586;1048608
+426;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;12.9507;0.2772;0.098;0.153;1048608
+427;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;12.8434;0.2823;0.1008;0.1348;1048608
+428;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;12.9992;0.2725;0.0961;0.1292;1048608
+429;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;14.034;0.2735;0.0966;0.1591;1048608
+430;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;50000;13.445;0.2926;0.1092;0.1432;1048608
+431;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.4983;0.0784;0.0541;0.0742;1138704
+432;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;5.4765;0.0784;0.0541;0.0872;1138704
+433;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;5.344;0.0854;0.055;0.0812;1138704
+434;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.1282;0.0756;0.0686;0.0709;1138704
+435;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.6574;0.076;0.1871;0.0709;1138704
+436;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.4418;0.0826;0.0536;0.1059;1138704
+437;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;5.2222;0.1003;0.1073;0.1157;1138704
+438;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.495;0.0756;0.0522;0.0686;1138704
+439;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.8885;0.0784;0.0541;0.0742;1138704
+440;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;50000;4.6154;0.0798;0.0555;0.0718;1138704
+441;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;12.877;0.8867;0.3435;0.5124;1605632
+442;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;12.961;0.3341;0.3075;0.5241;1605632
+443;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;12.6609;0.3337;0.2987;0.518;1605632
+444;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;12.8723;0.3089;0.2697;0.4107;1605632
+445;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;12.8079;0.2991;0.2758;0.4933;1605632
+446;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;13.0361;0.3262;0.2781;0.595;1605632
+447;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;12.8513;0.3043;0.2763;0.5964;1605632
+448;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;32.0086;0.4821;0.3701;0.8289;1605632
+449;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;14.1819;0.3649;0.2982;0.5143;1605632
+450;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;50000;14.8554;0.4177;0.455;0.6058;1605632
+451;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;51.6797;0.3953;0.1358;0.2216;2097184
+452;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;58.7744;0.3967;0.1568;0.2436;2097184
+453;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;30.6014;0.2781;0.0989;0.1726;2097184
+454;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;25.7694;0.3313;0.1036;0.1633;2097184
+455;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;26.7934;0.266;0.0952;0.1302;2097184
+456;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;25.7087;0.2674;0.0942;0.1372;2097184
+457;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;27.1849;0.2772;0.0966;0.1404;2097184
+458;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;27.0678;0.3379;0.1316;0.195;2097184
+459;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;27.2195;0.2851;0.097;0.1624;2097184
+460;BenchmarkingFramework.SortedRandomArrayGenerator;Hash Open Addressing;100000;26.0447;0.4424;0.1479;0.1876;2097184
+461;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;9.1567;0.0788;0.0546;0.0746;2269200
+462;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;8.928;0.0984;0.056;0.0802;2269200
+463;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;9.5842;0.0905;0.0639;0.0919;2269200
+464;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;10.5349;0.0788;0.0546;0.0765;2269200
+465;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;8.9858;0.0788;0.0546;0.0746;2269200
+466;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;9.1249;0.0816;0.0564;0.126;2269200
+467;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;9.6248;0.1143;0.0714;0.077;2269200
+468;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;8.7726;0.076;0.0532;0.0718;2269200
+469;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;9.04;0.0774;0.0541;0.0779;2269200
+470;BenchmarkingFramework.SortedRandomArrayGenerator;HashChaining;100000;10.176;0.0998;0.056;0.0793;2269200
+471;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;27.4841;0.4135;0.3089;0.6818;3203072
+472;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;27.0865;0.4097;0.3029;0.4765;3203072
+473;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;26.8064;0.3682;0.3001;0.5428;3203072
+474;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;29.8733;0.3687;0.3089;0.5936;3203072
+475;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;26.8186;0.4279;0.3094;0.5502;3203072
+476;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;27.4631;0.434;0.3603;0.7238;3203072
+477;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;28.2766;0.624;0.4564;0.6459;3203072
+478;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;27.5761;0.3659;0.3262;0.7122;3203072
+479;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;29.9699;0.448;0.3444;0.785;3203072
+480;BenchmarkingFramework.SortedRandomArrayGenerator;AVL Tree;100000;29.6941;0.7234;0.4391;0.9973;3203072
+481;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0513;0.0466;0.0014;0.0018;8192
+482;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0018;8192
+483;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+484;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0051;0.0037;0.0014;0.0014;8192
+485;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0018;8192
+486;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+487;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0046;0.0032;0.0009;0.0018;8192
+488;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0009;0.0018;8192
+489;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0014;8192
+490;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0014;8192
+491;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+492;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0009;8192
+493;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0345;0.0004;0.0004;0.0009;8192
+494;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0037;0.0004;0.0004;0.0009;8192
+495;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0032;0.0009;0.0009;0.0004;8192
+496;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0032;0.0004;0.0009;0.0004;8192
+497;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0009;8192
+498;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+499;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+500;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10;0.0037;0.0004;0.0004;0.0009;8192
+501;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
+502;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0009;0.0023;8192
+503;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0018;8192
+504;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0102;0.0014;0.0014;0.0023;8192
+505;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0018;0.0009;0.0023;8192
+506;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0014;0.0018;8192
+507;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0093;0.0014;0.0014;0.0018;8192
+508;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0009;0.0023;8192
+509;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0046;0.0018;0.0014;0.0023;8192
+510;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10;0.0042;0.0018;0.0009;0.0023;8192
+511;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0266;0.0322;0.0116;0.0135;8192
+512;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0303;0.0317;0.0116;0.0135;8192
+513;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0429;0.0322;0.0116;0.0168;8192
+514;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0256;0.0322;0.0116;0.0135;8192
+515;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0303;0.0499;0.0112;0.0135;8192
+516;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0261;0.0322;0.0116;0.0135;8192
+517;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0303;0.0322;0.0116;0.0135;8192
+518;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0298;0.0322;0.0116;0.0135;8192
+519;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0396;0.0322;0.0116;0.0135;8192
+520;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100;0.0284;0.0312;0.0112;0.0135;8192
+521;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.014;0.006;0.0037;0.0032;8192
+522;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0093;0.006;0.0037;0.0032;8192
+523;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0093;0.006;0.0163;0.0028;8192
+524;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0088;0.0065;0.0037;0.0032;8192
+525;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0093;0.006;0.0037;0.0032;8192
+526;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0093;0.006;0.0037;0.0032;8192
+527;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0098;0.006;0.0037;0.0032;8192
+528;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0098;0.0065;0.0037;0.0032;8192
+529;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0098;0.006;0.0032;0.0032;8192
+530;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100;0.0088;0.006;0.0037;0.0032;8192
+531;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0191;0.0172;0.0116;0.0247;8192
+532;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0196;0.0172;0.0116;0.0144;8192
+533;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.02;0.0168;0.0116;0.0144;8192
+534;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0205;0.0172;0.0112;0.0144;8192
+535;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0196;0.0168;0.0112;0.0144;8192
+536;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0196;0.0168;0.0298;0.014;8192
+537;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0196;0.0168;0.0116;0.0149;8192
+538;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0196;0.0168;0.0116;0.0149;8192
+539;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0261;0.0163;0.0112;0.0144;8192
+540;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100;0.0261;0.0172;0.0112;0.014;8192
+541;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1656;0.1946;0.0676;0.0756;8216
+542;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1358;0.1918;0.0648;0.0751;8216
+543;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1684;0.1918;0.0658;0.0751;8216
+544;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1353;0.203;0.0648;0.0751;8216
+545;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1344;0.1852;0.0952;0.0732;8216
+546;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1558;0.1913;0.0658;0.0835;8216
+547;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1409;0.1913;0.0653;0.0751;8216
+548;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1652;0.1918;0.0658;0.0756;8216
+549;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.1414;0.1913;0.0648;0.0746;8216
+550;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;500;0.132;0.1857;0.0644;0.0723;8216
+551;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0368;0.0326;0.0168;0.0149;16384
+552;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0415;0.0336;0.0177;0.0149;16384
+553;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0424;0.0336;0.0177;0.0154;16384
+554;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.062;0.0317;0.0172;0.0144;16384
+555;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0396;0.0326;0.0172;0.0154;16384
+556;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0345;0.0312;0.0177;0.0154;16384
+557;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0424;0.0336;0.0172;0.0154;16384
+558;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0424;0.0331;0.0172;0.0149;16384
+559;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0429;0.0331;0.0177;0.0149;16384
+560;BenchmarkingFramework.CountingArrayGenerator;HashChaining;500;0.0396;0.0326;0.0177;0.0149;16384
+561;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.2879;0.098;0.0672;0.0704;16384
+562;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0924;0.0919;0.0858;0.0709;16384
+563;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0998;0.0966;0.0667;0.0704;16384
+564;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0989;0.0961;0.0667;0.0709;16384
+565;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0933;0.0938;0.0644;0.0681;16384
+566;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0966;0.0933;0.0644;0.0686;16384
+567;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0891;0.1082;0.0648;0.097;16384
+568;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.1264;0.104;0.0667;0.0686;16384
+569;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0975;0.1148;0.076;0.0704;16384
+570;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;500;0.0966;0.097;0.0667;0.0709;16384
+571;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2282;0.3533;0.1045;0.125;16408
+572;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2403;0.3369;0.168;0.1582;16408
+573;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2221;0.3257;0.1073;0.1451;16408
+574;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2198;0.3257;0.1218;0.126;16408
+575;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2384;0.3267;0.1087;0.1264;16408
+576;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2338;0.3257;0.1045;0.1255;16408
+577;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2907;0.3337;0.1031;0.1218;16408
+578;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2137;0.3159;0.1031;0.1502;16408
+579;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2207;0.3257;0.1054;0.125;16408
+580;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;1000;0.2198;0.3486;0.1036;0.125;16408
+581;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.076;0.0672;0.0354;0.0308;24576
+582;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0863;0.0662;0.035;0.0298;24576
+583;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0802;0.0639;0.034;0.0289;24576
+584;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0644;0.0616;0.0382;0.034;24576
+585;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0765;0.0676;0.035;0.0308;24576
+586;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0728;0.0658;0.035;0.0298;24576
+587;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0858;0.0658;0.0354;0.0308;24576
+588;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0639;0.0611;0.035;0.0298;24576
+589;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0756;0.0672;0.035;0.0303;24576
+590;BenchmarkingFramework.CountingArrayGenerator;HashChaining;1000;0.0737;0.0658;0.035;0.0303;24576
+591;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1997;0.1946;0.1409;0.1708;32768
+592;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1876;0.2006;0.14;0.1624;32768
+593;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2025;0.2002;0.14;0.1717;32768
+594;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.1932;0.2137;0.1451;0.14;32768
+595;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.273;0.3523;0.147;0.2819;32768
+596;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2048;0.2002;0.1554;0.1806;32768
+597;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2137;0.1988;0.1409;0.1535;32768
+598;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2114;0.1876;0.1358;0.14;32768
+599;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2165;0.251;0.2398;0.1838;32768
+600;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;1000;0.2165;0.1988;0.1414;0.1549;32768
+601;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0127;0.3327;0.0933;0.1143;65560
+602;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0263;0.3341;0.0938;0.1152;65560
+603;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.1117;0.3635;0.125;0.1227;65560
+604;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0225;0.3351;0.0947;0.1152;65560
+605;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0314;0.3439;0.119;0.1143;65560
+606;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0473;0.3323;0.0938;0.1176;65560
+607;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.1859;0.3439;0.0938;0.1148;65560
+608;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0319;0.3332;0.0928;0.1143;65560
+609;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.0548;0.3229;0.0905;0.111;65560
+610;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;5000;1.2302;0.3617;0.1078;0.1442;65560
+611;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3785;0.0667;0.0345;0.0378;122904
+612;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3239;0.0606;0.0336;0.0331;122904
+613;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3463;0.0681;0.0359;0.0373;122904
+614;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3052;0.0588;0.0322;0.041;122904
+615;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3416;0.0667;0.0434;0.0508;122904
+616;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3052;0.0616;0.0354;0.0364;122904
+617;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3421;0.0672;0.034;0.0326;122904
+618;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3071;0.0616;0.0336;0.0326;122904
+619;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3477;0.0672;0.0354;0.0406;122904
+620;BenchmarkingFramework.CountingArrayGenerator;HashChaining;5000;0.3066;0.062;0.0354;0.0368;122904
+621;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.1322;0.2599;0.2132;0.4765;163840
+622;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.0534;0.2389;0.1885;0.2235;163840
+623;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.0963;0.2384;0.188;0.223;163840
+624;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.2298;0.2426;0.2086;0.2478;163840
+625;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.0767;0.2384;0.1885;0.2342;163840
+626;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.1084;0.2772;0.1904;0.2426;163840
+627;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.0431;0.2562;0.1969;0.2347;163840
+628;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.0823;0.2464;0.2118;0.2342;163840
+629;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.086;0.2459;0.195;0.2305;163840
+630;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;5000;1.0954;0.2389;0.1899;0.2268;163840
+631;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;4.0175;0.6949;0.2095;0.2025;131104
+632;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;4.1734;0.6552;0.1778;0.2011;131104
+633;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.8827;0.6314;0.1717;0.1946;131104
+634;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.9125;0.6221;0.1736;0.196;131104
+635;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.9783;0.6258;0.1717;0.1927;131104
+636;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.8687;0.6258;0.1717;0.2062;131104
+637;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.9858;0.7159;0.1801;0.2132;131104
+638;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.9214;0.6646;0.1712;0.1918;131104
+639;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.9807;0.6272;0.1834;0.1946;131104
+640;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;10000;3.9177;0.6254;0.1717;0.1918;131104
+641;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.5946;0.0597;0.0378;0.0452;237592
+642;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.624;0.063;0.0368;0.0434;237592
+643;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.8079;0.0611;0.0336;0.0354;237592
+644;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6389;0.063;0.0364;0.0438;237592
+645;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.5932;0.0606;0.0354;0.0424;237592
+646;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.596;0.0592;0.0326;0.0326;237592
+647;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6114;0.0602;0.0354;0.0434;237592
+648;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6487;0.0592;0.0326;0.0326;237592
+649;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6683;0.0606;0.0354;0.0434;237592
+650;BenchmarkingFramework.CountingArrayGenerator;HashChaining;10000;0.6324;0.0616;0.0336;0.0336;237592
+651;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.2986;0.2263;0.2249;0.2319;327680
+652;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.3285;0.2454;0.2305;0.2389;327680
+653;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.3793;0.5605;0.2823;0.4914;327680
+654;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.2804;0.2342;0.2319;0.2506;327680
+655;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.4344;0.252;0.2118;0.343;327680
+656;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.2356;0.2478;0.2763;0.2328;327680
+657;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.3574;0.223;0.2114;0.2338;327680
+658;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.2575;0.2571;0.2188;0.2398;327680
+659;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.307;0.231;0.2198;0.2408;327680
+660;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;10000;2.5912;0.245;0.2202;0.2921;327680
+661;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;20.655;0.2319;0.0779;0.1194;1048608
+662;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;11.5664;0.2328;0.0779;0.1138;1048608
+663;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;13.2335;0.2389;0.098;0.1278;1048608
+664;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;11.978;0.2482;0.084;0.1143;1048608
+665;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;11.4572;0.2538;0.1087;0.1213;1048608
+666;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;10.6138;0.2235;0.076;0.1036;1048608
+667;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;11.0539;0.224;0.076;0.1096;1048608
+668;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;10.8318;0.2496;0.0746;0.1003;1048608
+669;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;11.158;0.2398;0.076;0.1232;1048608
+670;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;50000;10.7968;0.2235;0.1143;0.105;1048608
+671;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.2488;0.0611;0.035;0.0611;1138720
+672;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.6894;0.0602;0.0452;0.0429;1138720
+673;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.3847;0.0625;0.0354;0.0471;1138720
+674;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.3193;0.0625;0.049;0.048;1138720
+675;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.4864;0.0611;0.0345;0.0746;1138720
+676;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.842;0.1082;0.0532;0.0784;1138720
+677;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.4687;0.0602;0.0345;0.0457;1138720
+678;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.3174;0.0602;0.0345;0.0532;1138720
+679;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.1261;0.062;0.0387;0.0555;1138720
+680;BenchmarkingFramework.CountingArrayGenerator;HashChaining;50000;3.2554;0.0756;0.0387;0.0905;1138720
+681;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;12.7943;0.4867;0.3024;0.35;1605632
+682;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;14.7719;0.3281;0.2716;0.5306;1605632
+683;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;12.7542;0.3117;0.3085;0.3393;1605632
+684;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;13.2373;0.3477;0.2744;0.6613;1605632
+685;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;13.7049;0.3332;0.2791;0.476;1605632
+686;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;13.4996;0.4895;0.3873;0.5255;1605632
+687;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;14.4769;0.4559;0.3281;0.6151;1605632
+688;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;13.9178;0.3234;0.2697;0.5082;1605632
+689;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;14.0148;0.3001;0.2921;0.483;1605632
+690;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;50000;13.4772;0.4153;0.6277;0.4872;1605632
+691;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;31.8914;0.4186;0.1311;0.168;2097184
+692;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;31.5269;0.3752;0.1292;0.251;2097184
+693;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;35.7261;0.4116;0.1353;0.1759;2097184
+694;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;31.4653;0.427;0.1306;0.1605;2097184
+695;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;32.0174;0.5119;0.1535;0.1591;2097184
+696;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;32.0758;0.3696;0.1302;0.1591;2097184
+697;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;32.0319;0.3948;3.2535;0.1717;2097184
+698;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;36.3445;0.3859;0.133;0.1778;2097184
+699;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;32.7143;0.4209;0.1302;0.1927;2097184
+700;BenchmarkingFramework.CountingArrayGenerator;Hash Open Addressing;100000;31.21;0.3687;0.1292;0.16;2097184
+701;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.8086;0.062;0.0396;0.0667;2269216
+702;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;7.7439;0.0914;0.0536;0.0858;2269216
+703;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;7.0345;0.0611;0.0354;0.0686;2269216
+704;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.3456;0.062;0.0354;0.0583;2269216
+705;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.3614;0.0606;0.0354;0.056;2269216
+706;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.4217;0.062;0.0354;0.0788;2269216
+707;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.374;0.0611;0.0354;0.055;2269216
+708;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.6695;0.1162;0.0424;0.0569;2269216
+709;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.3222;0.0639;0.0396;0.0798;2269216
+710;BenchmarkingFramework.CountingArrayGenerator;HashChaining;100000;6.2541;0.0611;0.0359;0.0569;2269216
+711;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;29.8224;0.4601;0.4046;0.841;3203072
+712;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.8164;0.4951;0.3747;0.707;3203072
+713;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;28.5711;0.329;0.3439;0.6216;3203072
+714;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.9093;0.3327;0.3089;0.8079;3203072
+715;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;26.4494;0.3192;0.3369;0.5507;3203072
+716;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.626;0.3267;0.3267;0.631;3203072
+717;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.5415;0.371;0.3337;0.554;3203072
+718;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;26.4237;0.3285;0.3005;0.5395;3203072
+719;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.5677;0.5372;0.4284;0.609;3203072
+720;BenchmarkingFramework.CountingArrayGenerator;AVL Tree;100000;27.3856;0.378;0.3481;0.5703;3203072
+721;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.006;0.0032;0.0014;0.0014;8192
+722;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0051;0.0032;0.0014;0.0014;8192
+723;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.006;0.0032;0.0014;0.0018;8192
+724;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0429;0.0032;0.0014;0.0018;8192
+725;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+726;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0009;0.0018;8192
+727;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+728;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.006;0.0032;0.0009;0.0014;8192
+729;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0014;8192
+730;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10;0.0056;0.0032;0.0014;0.0018;8192
+731;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+732;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+733;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0009;8192
+734;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0042;0.0004;0.0009;0.0004;8192
+735;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+736;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0009;8192
+737;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0009;0.0004;8192
+738;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0009;8192
+739;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0037;0.0009;0.0004;0.0004;8192
+740;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10;0.0032;0.0009;0.0004;0.0009;8192
+741;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0028;8192
+742;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
+743;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0009;0.0023;8192
+744;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0112;0.0018;0.0009;0.0028;8192
+745;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0042;0.0018;0.0009;0.0023;8192
+746;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0009;0.0023;8192
+747;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0079;0.0172;0.0014;0.0023;8192
+748;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0046;0.0014;0.0014;0.0028;8192
+749;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0042;0.0014;0.0009;0.0032;8192
+750;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10;0.0177;0.0014;0.0009;0.0032;8192
+751;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0275;0.0256;0.0093;0.0112;8192
+752;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.027;0.0256;0.0093;0.0275;8192
+753;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.027;0.0256;0.0093;0.0116;8192
+754;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0233;0.0261;0.0093;0.0116;8192
+755;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0275;0.0256;0.0088;0.0116;8192
+756;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0228;0.042;0.0135;0.0112;8192
+757;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0261;0.0256;0.0093;0.0112;8192
+758;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0256;0.0256;0.0093;0.0116;8192
+759;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.0228;0.0261;0.0093;0.0112;8192
+760;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100;0.028;0.0256;0.0093;0.0116;8192
+761;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0191;0.0079;0.0051;0.0042;8192
+762;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0102;0.0074;0.0056;0.0042;8192
+763;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0266;0.0079;0.0051;0.0042;8192
+764;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0107;0.0079;0.0051;0.0037;8192
+765;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0116;0.0079;0.0056;0.0037;8192
+766;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0121;0.0079;0.0051;0.0042;8192
+767;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0126;0.0074;0.0051;0.0042;8192
+768;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0107;0.0079;0.0056;0.0042;8192
+769;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0102;0.0074;0.0056;0.0037;8192
+770;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100;0.0107;0.0074;0.0051;0.0037;8192
+771;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0228;0.0191;0.0126;0.0214;8192
+772;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0233;0.0359;0.0163;0.0219;8192
+773;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0387;0.0214;0.0126;0.055;8192
+774;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0238;0.0196;0.013;0.021;8192
+775;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0266;0.0224;0.0144;0.0238;8192
+776;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0238;0.0196;0.0126;0.0378;8192
+777;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0238;0.0196;0.0126;0.021;8192
+778;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0284;0.0196;0.013;0.021;8192
+779;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0294;0.0196;0.0126;0.021;8192
+780;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100;0.0284;0.02;0.0126;0.021;8192
+781;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.111;0.1731;0.0513;0.062;8216
+782;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1222;0.146;0.0527;0.062;8216
+783;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1096;0.3715;0.0532;0.1829;8216
+784;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1073;0.146;0.0518;0.0616;8216
+785;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1134;0.1465;0.0527;0.0616;8216
+786;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1344;0.1465;0.0527;0.0611;8216
+787;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.111;0.1983;0.0522;0.062;8216
+788;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1068;0.146;0.0527;0.0611;8216
+789;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1064;0.1456;0.0667;0.0616;8216
+790;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;500;0.1064;0.1605;0.0658;0.0611;8216
+791;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0695;0.0504;0.0256;0.0182;16384
+792;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.049;0.0406;0.0252;0.0182;16384
+793;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0494;0.0401;0.0252;0.0177;16384
+794;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0494;0.0406;0.0256;0.0182;16384
+795;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.048;0.0378;0.0256;0.0177;16384
+796;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0415;0.0378;0.0256;0.0177;16384
+797;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0597;0.0406;0.0252;0.0182;16384
+798;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0667;0.0415;0.0252;0.0294;16384
+799;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0494;0.0406;0.0252;0.0177;16384
+800;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;500;0.0732;0.0424;0.0252;0.0462;16384
+801;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1204;0.1162;0.0742;0.1064;16384
+802;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1306;0.1176;0.0765;0.1106;16384
+803;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1241;0.125;0.076;0.1213;16384
+804;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1204;0.1148;0.0737;0.1059;16384
+805;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1386;0.1185;0.076;0.1096;16384
+806;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1222;0.1199;0.0756;0.111;16384
+807;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.118;0.1171;0.1031;0.1096;16384
+808;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1409;0.1199;0.0756;0.1194;16384
+809;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.126;0.119;0.076;0.1092;16384
+810;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;500;0.1222;0.1204;0.0765;0.1092;16384
+811;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2286;0.3514;0.1456;0.1297;16408
+812;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2221;0.3253;0.1087;0.1493;16408
+813;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2202;0.3439;0.1101;0.1297;16408
+814;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2212;0.6254;0.1092;0.1292;16408
+815;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2198;0.3248;0.1096;0.1568;16408
+816;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2212;0.3439;0.1096;0.1288;16408
+817;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.308;0.3262;0.3094;0.1288;16408
+818;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2221;0.35;0.1101;0.1302;16408
+819;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.2492;0.3257;0.1087;0.1288;16408
+820;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;1000;0.23;0.3281;0.112;0.1297;16408
+821;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.09;0.118;0.048;0.0648;24576
+822;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0854;0.0984;0.049;0.0359;24576
+823;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0863;0.0742;0.048;0.0359;24576
+824;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0952;0.084;0.0485;0.0359;24576
+825;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0882;0.0793;0.0485;0.0364;24576
+826;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0844;0.076;0.0466;0.0345;24576
+827;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0877;0.0984;0.0597;0.0364;24576
+828;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.1022;0.0751;0.0485;0.0359;24576
+829;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0886;0.0802;0.0485;0.0448;24576
+830;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;1000;0.0863;0.0784;0.0485;0.0359;24576
+831;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.273;0.2408;0.1619;0.2268;32768
+832;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2389;0.2963;0.2109;0.2431;32768
+833;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.287;0.3047;0.1974;0.2819;32768
+834;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2945;0.2422;0.1572;0.2184;32768
+835;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.266;0.2394;0.1628;0.2366;32768
+836;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.3957;0.2501;0.1708;0.2422;32768
+837;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2977;0.2828;0.2044;0.2581;32768
+838;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.238;0.2861;0.1759;0.2258;32768
+839;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2501;0.2478;0.1815;0.2254;32768
+840;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;1000;0.2492;0.2749;0.1624;0.2254;32768
+841;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.1789;0.4102;0.1166;0.1474;65560
+842;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.1663;0.364;0.1157;0.1465;65560
+843;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.2774;0.3631;0.1166;0.1376;65560
+844;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.1882;0.3808;0.2034;0.1344;65560
+845;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.2008;0.3757;0.1166;0.1344;65560
+846;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.1775;0.3817;0.1134;0.1348;65560
+847;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.4627;0.3696;0.1124;0.1498;65560
+848;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.1668;0.3733;0.1348;0.1516;65560
+849;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.1584;0.3626;0.1171;0.1344;65560
+850;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;5000;1.2176;0.364;0.126;0.16;65560
+851;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.3747;0.0695;0.0448;0.0448;122904
+852;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.3631;0.1012;0.0466;0.0457;122904
+853;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.3491;0.069;0.0438;0.0438;122904
+854;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.4265;0.077;0.0452;0.0457;122904
+855;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.4979;0.0891;0.0452;0.0462;122904
+856;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.4312;0.077;0.0452;0.0448;122904
+857;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.3635;0.0718;0.0452;0.0462;122904
+858;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.4223;0.0868;0.0443;0.0704;122904
+859;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.5941;0.0807;0.0443;0.0462;122904
+860;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;5000;0.4293;0.0774;0.0457;0.0452;122904
+861;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.3726;0.3351;0.2305;0.2907;163840
+862;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.4216;0.2861;0.237;0.2842;163840
+863;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.3637;0.3481;0.2221;0.2814;163840
+864;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.3353;0.287;0.2408;0.2814;163840
+865;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.3091;0.308;0.2188;0.2917;163840
+866;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.2788;0.3491;0.2114;0.3178;163840
+867;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.4519;0.3243;0.2548;0.3201;163840
+868;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.2965;0.2954;0.217;0.3435;163840
+869;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.283;0.3094;0.2884;0.2889;163840
+870;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;5000;1.3628;0.3089;0.2198;0.3206;163840
+871;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.797;0.6958;0.1255;0.2207;131104
+872;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.3224;0.3901;0.1227;0.1348;131104
+873;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.3429;0.4032;0.1129;0.1339;131104
+874;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.4377;0.3649;0.1143;0.1339;131104
+875;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.4643;0.3943;0.1171;0.1381;131104
+876;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.4773;0.3789;0.1134;0.1353;131104
+877;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.3933;0.3771;0.1185;0.1381;131104
+878;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.4064;0.378;0.1372;0.1376;131104
+879;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.4573;0.3859;0.1152;0.16;131104
+880;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;10000;2.3663;0.4004;0.1134;0.133;131104
+881;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.735;0.0737;0.0648;0.0513;237592
+882;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.7103;0.0872;0.0443;0.0732;237592
+883;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;1.0253;0.0732;0.0462;0.0695;237592
+884;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.743;0.07;0.0448;0.0476;237592
+885;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.7266;0.0854;0.0513;0.0485;237592
+886;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.7616;0.083;0.0532;0.056;237592
+887;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.7257;0.09;0.0471;0.049;237592
+888;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.7789;0.0732;0.0466;0.0518;237592
+889;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.7574;0.0746;0.0471;0.0672;237592
+890;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;10000;0.736;0.0723;0.0457;0.049;237592
+891;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;3.4299;0.3673;0.3486;0.5386;327680
+892;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.8288;0.3276;0.2338;0.308;327680
+893;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.8918;0.3953;0.2506;0.3477;327680
+894;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.9011;0.3323;0.2352;0.3099;327680
+895;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.9254;0.5414;0.273;0.3211;327680
+896;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.9291;0.3145;0.2328;0.3257;327680
+897;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.7924;0.3313;0.2342;0.6048;327680
+898;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;2.7704;0.3743;0.4587;0.3099;327680
+899;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;6.094;0.3397;0.2665;0.3299;327680
+900;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;10000;3.0169;0.3215;0.2384;0.3229;327680
+901;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;14.139;0.273;0.0984;0.1885;1048608
+902;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;14.1002;0.5885;0.2534;0.1446;1048608
+903;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;13.0846;0.4088;0.0975;0.266;1048608
+904;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;12.4611;0.2693;0.0966;0.1269;1048608
+905;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;12.2352;0.2805;0.097;0.1372;1048608
+906;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;12.6385;0.2898;0.0975;0.125;1048608
+907;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;14.0349;0.2707;0.097;0.1409;1048608
+908;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;12.841;0.2688;0.0961;0.1246;1048608
+909;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;12.1251;0.2707;0.0956;0.1782;1048608
+910;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;50000;12.5264;0.2693;0.0984;0.1367;1048608
+911;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;5.0541;0.0751;0.0513;0.0676;1138720
+912;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.4558;0.0742;0.0504;0.0662;1138720
+913;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.3312;0.0756;0.0504;0.0784;1138720
+914;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;5.1241;0.0877;0.0732;0.0788;1138720
+915;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.6378;0.0746;0.0508;0.0676;1138720
+916;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.4689;0.0742;0.0504;0.0662;1138720
+917;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.4619;0.0742;0.0508;0.0672;1138720
+918;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.8217;0.0872;0.0602;0.0793;1138720
+919;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.741;0.0863;0.0508;0.0896;1138720
+920;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;50000;4.4787;0.0737;0.0644;0.0676;1138720
+921;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;15.4902;0.3631;0.3486;0.3682;1605632
+922;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;16.3676;0.5045;0.3715;0.4867;1605632
+923;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.4694;0.4102;0.3523;0.3794;1605632
+924;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.6599;0.3719;0.2851;0.4065;1605632
+925;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.3173;0.3729;0.2856;0.42;1605632
+926;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;15.1284;0.4107;0.3477;0.4443;1605632
+927;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.251;0.371;0.3341;0.378;1605632
+928;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.4307;0.4242;0.2879;0.3715;1605632
+929;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.244;0.3738;0.3094;0.3953;1605632
+930;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;50000;14.4839;0.4382;0.3052;0.3738;1605632
+931;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;29.3076;0.2987;0.1348;0.1736;2097184
+932;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;25.7446;0.2711;0.0966;0.126;2097184
+933;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;28.1021;0.2632;0.0942;0.1246;2097184
+934;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;24.7001;0.4009;0.1152;0.2515;2097184
+935;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;24.7169;0.2996;0.0947;0.125;2097184
+936;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;25.7404;0.294;0.0975;0.1241;2097184
+937;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;24.9096;0.2945;0.104;0.1703;2097184
+938;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;25.179;0.3113;0.0942;0.126;2097184
+939;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;25.5701;0.273;0.0966;0.1302;2097184
+940;BenchmarkingFramework.GroupedArrayGenerator;Hash Open Addressing;100000;28.7928;0.2791;0.0966;0.1647;2097184
+941;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;9.4955;0.0774;0.0541;0.0765;2269216
+942;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;8.7959;0.076;0.0522;0.0714;2269216
+943;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;9.4269;0.076;0.0527;0.0723;2269216
+944;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;8.9723;0.1474;0.0522;0.0816;2269216
+945;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;9.1595;0.076;0.0527;0.0756;2269216
+946;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;8.8421;0.0779;0.0541;0.0742;2269216
+947;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;10.8159;0.0751;0.0518;0.0975;2269216
+948;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;11.0315;0.1129;0.1138;0.112;2269216
+949;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;9.7307;0.0756;0.0527;0.0858;2269216
+950;BenchmarkingFramework.GroupedArrayGenerator;HashChaining;100000;9.327;0.0924;0.0541;0.0742;2269216
+951;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;29.6264;0.4531;0.3351;0.5082;3203072
+952;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;29.5984;0.4597;0.3192;0.4452;3203072
+953;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;30.3946;0.3995;0.4069;0.4615;3203072
+954;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;29.4882;0.4989;0.4345;0.568;3203072
+955;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;34.7427;0.6146;0.4438;0.6506;3203072
+956;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;29.9545;0.4606;0.3253;0.4671;3203072
+957;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;30.4114;0.7136;0.6128;0.4233;3203072
+958;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;30.2695;0.4307;0.3537;0.5712;3203072
+959;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;31.4322;0.5633;0.4839;0.6604;3203072
+960;BenchmarkingFramework.GroupedArrayGenerator;AVL Tree;100000;31.6361;0.4489;0.3304;0.462;3203072

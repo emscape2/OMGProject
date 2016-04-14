@@ -24,10 +24,11 @@ namespace BenchmarkingFramework
             int[] sizes = new int[] {
                 10,
                 100,
-                300,
+                500,
                 1000,
-                3000,
+                5000,
                 10000,
+                50000,
                 100000
             };
             ArrayGenerator[] gens = new ArrayGenerator[] {

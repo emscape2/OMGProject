@@ -13,7 +13,7 @@ namespace BenchmarkingFramework
     class HashChaining : TreeAlgorithm
     {
         private LinkedListNode[] _table;
-        public const int DEFAULT_SIZE = 500009;
+        public const int DEFAULT_SIZE = 16;
         double GROW_THRESHOLD = 2.0; // Average of 2 entries per bucket
         double GROW_RATE = 2.0;
 
